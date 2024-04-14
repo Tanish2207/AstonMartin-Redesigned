@@ -53,9 +53,9 @@ export function Aston(props) {
   // },[])
   
   useLayoutEffect(() =>{
-    tl.current = gsap.timeline({defaults: {duration: 2, ease: 'power1.inOut'}});
+    tl.current = gsap.timeline({defaults: {duration: 4, ease: 'power4.out'}});
     tl.current
-    .to(Car.current.position, {y: 1})
+    .to(Car.current.position, {y: -1.3})
   })
 
   useFrame((state, delta) => {
@@ -63,7 +63,7 @@ export function Aston(props) {
   })
   return (
 
-    <group {...props} dispose={null} ref={Car} position={[0,-1.5,0]} rotation={[Math.PI/2, Math.PI, 0]}>
+    <group {...props} dispose={null} ref={Car} position={[0,-6,0]} rotation={[Math.PI/2, Math.PI, 0]}>
       <mesh geometry={nodes.amdb11_wheel_03_amdb11_mirror_0.geometry} material={materials.PaletteMaterial002} position={[0.962, 0.376, 1.302]} rotation={[-Math.PI / 2, 0, 0]}>
 
       </mesh>
