@@ -2,10 +2,11 @@ import React from 'react'
 
 const Landing = () => {
     return (
-        <div className="relative">
+        <div className="relative landing-container">z
+
             <div className="text-center text-white tracking-tight py-10">
                 <p className="text-xl pb-2"> Crafting Dreams, Engineering Excellence:</p>
-                <h1 className="text-2xl font-black">Aston Martin, where performance meets excellence</h1>
+                <h1 className="text-2xl font-black">Aston Martin, where performance meets passion</h1>
             </div>
 
             <div className="flex flex-col gap-12 absolute text-white landing-left">

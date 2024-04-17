@@ -13,10 +13,10 @@ function App() {
       <Canvas dpr={[1, 2]} shadows camera={{ fov: 90 }} style={{ "position": "absolute" }}  >
 
         <color attach="background" args={["#35373b"]} />
-        <ambientLight intensity={2} />
+        <ambientLight intensity={3} />
         <PresentationControls global>
           <Environment files="/env/metro_noord_2k.hdr" />
-          <ScrollControls pages={3} damping={0.2}>
+          <ScrollControls pages={2} damping={0.2}>
             <Aston scale={1} />
             <Scroll html style={{ width: "100%", margin: "0", padding: "0" }}>
               <Navbar />

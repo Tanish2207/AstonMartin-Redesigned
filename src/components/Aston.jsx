@@ -8,62 +8,97 @@ Source: https://sketchfab.com/3d-models/aston-martin-db11-0ce56f01b1ff40b3a4e36b
 Title: Aston Martin db11
 */
 
-import React, { useLayoutEffect, useRef } from 'react'
+import React, { useLayoutEffect, useRef, useEffect } from 'react'
 import { useGLTF, useScroll } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 import { gsap } from "gsap";
 
-
+function d2r(degrees) {
+  return degrees * (Math.PI / 180);
+}
 
 export function Aston(props) {
   const { nodes, materials } = useGLTF('./models/aston_martin_transformed.glb')
   const Car = useRef();
   const scroll = useScroll();
   const tl = useRef();
+  const tlInit = useRef();
 
-  // useFrame((state, delta) => {
-  //   tl.current.seek(scroll.offset * tl.current.duration())
-  // })
-  // useLayoutEffect(() => {
-  //   tl.current = gsap.timeline({defaults: {duration: 2, ease: 'power1.inOut'}});
+  useLayoutEffect(() => {
+    tlInit.current = gsap.timeline({ defaults: { duration: 4, ease: 'power4.out' } });
 
-  //   tl.current
-  //   .to(Car.current.rotation, {y: -1}, 2)
-  //   .to(Car.current.position, {x: 1}, 2)
-
-  //   .to(Car.current.rotation, {y: 1}, 6)   
-  //   .to(Car.current.position, {x: -1}, 6)
-
-  //   .to(Car.current.rotation, {y: 0}, 11)
-  //   .to(Car.current.rotation, {x: 1}, 11)
-  //   .to(Car.current.position, {x: 0}, 11)
-
-  //   .to(Car.current.rotation, {y: 0}, 13)
-  //   .to(Car.current.rotation, {x: -1}, 13)    
-  //   .to(Car.current.position, {x: 0}, 13)
-
-  //   .to(Car.current.rotation, {y: 0}, 16)   
-  //   .to(Car.current.rotation, {x: 0}, 16) 
-  //   .to(Car.current.position, {x: 0}, 16)    
-
-  //   .to(Car.current.rotation, {y: 0}, 20)   
-  //   .to(Car.current.rotation, {x: 0}, 20) 
-  //   .to(Car.current.position, {x: 0}, 20)   
-
-  // },[])
-  
-  useLayoutEffect(() =>{
-    tl.current = gsap.timeline({defaults: {duration: 4, ease: 'power4.out'}});
-    tl.current
-    .to(Car.current.position, {y: -1.3})
-  })
+    tlInit.current
+      .to(Car.current.position, { y: -1.3 })
+  }, [])
 
   useFrame((state, delta) => {
-    // Car.current.rotation.y += delta *.2 ;
+    tl.current.seek(scroll.offset * tl.current.duration())
   })
+
+  useLayoutEffect(() => {
+    tl.current = gsap.timeline({ defaults: { duration: .8, ease: 'none' } })
+
+    tl.current
+      .to(Car.current.rotation, { x: d2r(80) }, 1)
+      .to(Car.current.rotation, { y: d2r(190) }, 1)
+      .to(Car.current.scale,  {x: 1.05, y: 1.05, z: 1.05} , 1)
+      
+      
+      .to(Car.current.rotation, { x: d2r(75) }, 1.5)
+      .to(Car.current.rotation, { y: d2r(195) }, 1.5)
+      .to(Car.current.scale,  {x: 1.1, y: 1.1, z: 1.1} , 1.5)
+      
+      .to(Car.current.rotation, { x: d2r(70) }, 2)
+      .to(Car.current.rotation, { y: d2r(200) }, 2)
+      .to(Car.current.scale,  {x: 1.15, y: 1.15, z: 1.15} , 2)
+      .to(Car.current.position, { x: -0.5 }, 2)
+      
+      .to(Car.current.rotation, { x: d2r(60) }, 3)
+      .to(Car.current.rotation, { y: d2r(210) }, 3)
+      .to(Car.current.scale,  {x: 1.25, y: 1.25, z: 1.25} , 3)
+      .to(Car.current.position, { x: -1 }, 3)
+      
+      .to(Car.current.rotation, { x: d2r(50) }, 4)
+      .to(Car.current.rotation, { y: d2r(220) }, 4)
+      .to(Car.current.scale,  {x: 1.3, y: 1.3, z: 1.3} , 4)
+      .to(Car.current.position, { x: -1.8 }, 4)
+      
+      .to(Car.current.rotation, { x: d2r(40)}, 5)
+      .to(Car.current.rotation, { y: d2r(230) }, 5)
+      .to(Car.current.scale,  {x: 1.35, y: 1.35, z: 1.35} , 5)
+      .to(Car.current.position, { x: -2.5 }, 5)
+      
+      .to(Car.current.rotation, { x: d2r(30) }, 6)
+      .to(Car.current.rotation, { y: d2r(240) }, 6)
+      .to(Car.current.scale,  {x: 1.4, y: 1.4, z: 1.4} , 6)
+      .to(Car.current.position, { x: -2.8 }, 6)
+      
+      .to(Car.current.rotation, { x: d2r(20) }, 7)
+      .to(Car.current.rotation, { y: d2r(250) }, 7)
+      .to(Car.current.scale,  {x: 1.45, y: 1.45, z: 1.45} , 7)
+      .to(Car.current.position, { x: -3.5 }, 7)
+      .to(Car.current.position, { y: -0.2 }, 7)
+      
+      .to(Car.current.rotation, { x: d2r(18) }, 8)
+      .to(Car.current.rotation, { y: d2r(260) }, 8)
+      .to(Car.current.scale,  {x: 1.5, y: 1.5, z: 1.5} , 8)
+      .to(Car.current.position, { x: -3.8 }, 8)
+      .to(Car.current.position, { y: -0.4 }, 8)
+      
+      .to(Car.current.rotation, { x: d2r(17) }, 9)
+      .to(Car.current.rotation, { y: d2r(265) }, 9)
+       .to(Car.current.position, { x: -4 }, 9)
+       .to(Car.current.position, { y: -.5 }, 9)
+
+
+      .to(Car.current.rotation, { x: d2r(16) }, 10)
+      .to(Car.current.rotation, { y: d2r(272) }, 10)
+
+  }, [])
   return (
 
-    <group {...props} dispose={null} ref={Car} position={[0,-6,0]} rotation={[Math.PI/2, Math.PI, 0]}>
+    // <group {...props} dispose={null} ref={Car} position={[-3,0,-0.5]} rotation={[d2r(0), -d2r(90), d2r(0)]} castShadow>
+    <group {...props} dispose={null} ref={Car} scale={1} position={[0, -6, -0.4]} rotation={[d2r(90), d2r(180), 0]} >
       <mesh geometry={nodes.amdb11_wheel_03_amdb11_mirror_0.geometry} material={materials.PaletteMaterial002} position={[0.962, 0.376, 1.302]} rotation={[-Math.PI / 2, 0, 0]}>
 
       </mesh>
@@ -75,8 +110,6 @@ export function Aston(props) {
       <mesh geometry={nodes.amdb11_headlightglass_R_amdb11_glass_0.geometry} material={materials.PaletteMaterial005} rotation={[-Math.PI / 2, 0, 0]} />
       <mesh geometry={nodes.amdb11_taillight_L_amdb11_signal_RL_0.geometry} material={materials.PaletteMaterial006} rotation={[-Math.PI / 2, 0, 0]} />
     </group>
-
-
   )
 }
 
