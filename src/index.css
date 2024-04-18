@@ -36,9 +36,9 @@ body {
 .myAston {
   /* background: linear-gradient(90deg, #D4A9FF 0%, #364AFF 100%); */
   background: linear-gradient(to right,
-      #7953cd 20%,
-      #2dc0ff 30%,
-      #098dc5 70%,
+      #7b51d5 20%,
+      #20bafc 30%,
+      #098dc5 50%,
       #764ada 80%);
   background-clip: text;
   background-size: 500% auto;
@@ -46,11 +46,21 @@ body {
   line-height: 1.4;
   animation: textShine 4s ease-in-out infinite alternate;
 }
+
 @keyframes textShine {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
+
   100% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
 }
+
+/* .landing-container {
+   background: url("/Rectangle 9.svg"); 
+   background-size: cover;
+  background-position: right 0 bottom 0;
+  height: 100vh;
+  z-index: -1; 
+} */
