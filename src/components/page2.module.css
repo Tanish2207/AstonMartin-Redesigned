@@ -1,0 +1,70 @@
+.capture {
+  /* height: 100%; */
+  /* width: 100%; */
+  border: 1px solid red;
+
+}
+
+.right {
+  /* float: right; */
+  /* width: 30%; */
+  height: 100vh;
+  position: absolute;
+  left: 60%;
+  top: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding: 10px 10px;
+  /* border: 1px solid green; */
+}
+
+
+.h1 {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.power {
+  height: 30%;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.powertext {
+  position: absolute;
+  color: black;
+}
+
+.bhp {
+  font-weight: 200;
+}
+
+.num {
+  position: absolute;
+}
+
+.powerbar {
+  width: 200px;
+  height: 1px;
+  background-color: blue;
+}
+
+.powerprogress {
+  width: 110px;
+  height: 100%;
+  background-color: red;
+  z-index: 999;
+}
+
+.specs {
+  color: black;
+  border: 1px solid black;
+  background-color: aliceblue;
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+}
