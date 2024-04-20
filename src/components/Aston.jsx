@@ -12,6 +12,7 @@ import React, { useLayoutEffect, useRef, useEffect } from 'react'
 import { useGLTF, useScroll } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 import { gsap } from "gsap";
+import { useThree } from '@react-three/fiber'
 
 function d2r(degrees) {
   return degrees * (Math.PI / 180);
@@ -23,6 +24,8 @@ export function Aston(props) {
   const scroll = useScroll();
   const tl = useRef();
   const tlInit = useRef();
+  const { camera } = useThree()
+  const { scene, gl } = useThree();
 
   useLayoutEffect(() => {
     tlInit.current = gsap.timeline({ defaults: { duration: 4, ease: 'power4.out' } });
@@ -36,69 +39,114 @@ export function Aston(props) {
   })
 
   useLayoutEffect(() => {
+    // Assuming `camera` is your PerspectiveCamera object
+    // camera.position.z = 0; // Move the camera further away
+    camera.fov = 90; // Increase the field of view
+    camera.updateProjectionMatrix(); // Always needed after changing camera properties
+
+
     tl.current = gsap.timeline({ defaults: { duration: .8, ease: 'none' } })
 
     tl.current
       .to(Car.current.rotation, { x: d2r(80) }, 1)
       .to(Car.current.rotation, { y: d2r(190) }, 1)
-      .to(Car.current.scale,  {x: 1.05, y: 1.05, z: 1.05} , 1)
-      
-      
+      .to(Car.current.scale, { x: 1.05, y: 1.05, z: 1.05 }, 1)
+
+
       .to(Car.current.rotation, { x: d2r(75) }, 1.5)
       .to(Car.current.rotation, { y: d2r(195) }, 1.5)
-      .to(Car.current.scale,  {x: 1.1, y: 1.1, z: 1.1} , 1.5)
-      
+      .to(Car.current.scale, { x: 1.1, y: 1.1, z: 1.1 }, 1.5)
+
       .to(Car.current.rotation, { x: d2r(70) }, 2)
       .to(Car.current.rotation, { y: d2r(200) }, 2)
-      .to(Car.current.scale,  {x: 1.15, y: 1.15, z: 1.15} , 2)
+      .to(Car.current.scale, { x: 1.15, y: 1.15, z: 1.15 }, 2)
       .to(Car.current.position, { x: -0.5 }, 2)
-      
+      .to(camera.position, { x: -0.5, y: 0, z: 5 }, 2)
+
       .to(Car.current.rotation, { x: d2r(60) }, 3)
       .to(Car.current.rotation, { y: d2r(210) }, 3)
-      .to(Car.current.scale,  {x: 1.25, y: 1.25, z: 1.25} , 3)
+      .to(Car.current.scale, { x: 1.25, y: 1.25, z: 1.25 }, 3)
       .to(Car.current.position, { x: -1 }, 3)
-      
+      .to(camera.position, { x: -1, y: 0, z: 5 }, 3)
+
+
       .to(Car.current.rotation, { x: d2r(50) }, 4)
       .to(Car.current.rotation, { y: d2r(220) }, 4)
-      .to(Car.current.scale,  {x: 1.3, y: 1.3, z: 1.3} , 4)
+      .to(Car.current.scale, { x: 1.3, y: 1.3, z: 1.3 }, 4)
       .to(Car.current.position, { x: -1.8 }, 4)
-      
-      .to(Car.current.rotation, { x: d2r(40)}, 5)
+      .to(camera.position, { x: -1.8, y: 0, z: 5 }, 4)
+
+
+      .to(Car.current.rotation, { x: d2r(40) }, 5)
       .to(Car.current.rotation, { y: d2r(230) }, 5)
-      .to(Car.current.scale,  {x: 1.35, y: 1.35, z: 1.35} , 5)
+      .to(Car.current.scale, { x: 1.35, y: 1.35, z: 1.35 }, 5)
       .to(Car.current.position, { x: -2.5 }, 5)
-      
+      .to(camera.position, { x: -2.5, y: 0, z: 5 }, 5)
+
+
       .to(Car.current.rotation, { x: d2r(30) }, 6)
       .to(Car.current.rotation, { y: d2r(240) }, 6)
-      .to(Car.current.scale,  {x: 1.4, y: 1.4, z: 1.4} , 6)
+      .to(Car.current.scale, { x: 1.4, y: 1.4, z: 1.4 }, 6)
       .to(Car.current.position, { x: -2.8 }, 6)
-      
+      .to(camera.position, { x: -2.8, y: 0, z: 5 }, 6)
+
+
+
       .to(Car.current.rotation, { x: d2r(20) }, 7)
       .to(Car.current.rotation, { y: d2r(250) }, 7)
-      .to(Car.current.scale,  {x: 1.45, y: 1.45, z: 1.45} , 7)
+      .to(Car.current.scale, { x: 1.45, y: 1.45, z: 1.45 }, 7)
       .to(Car.current.position, { x: -3.5 }, 7)
-      .to(Car.current.position, { y: -0.2 }, 7)
-      
+      .to(camera.position, { x: -3.5, y: 0, z: 5 }, 7)
+      // .to(Car.current.position, { y: -0.2 }, 7)
+
       .to(Car.current.rotation, { x: d2r(18) }, 8)
       .to(Car.current.rotation, { y: d2r(260) }, 8)
-      .to(Car.current.scale,  {x: 1.5, y: 1.5, z: 1.5} , 8)
+      .to(Car.current.scale, { x: 1.5, y: 1.5, z: 1.5 }, 8)
       .to(Car.current.position, { x: -3.8 }, 8)
-      .to(Car.current.position, { y: -0.4 }, 8)
-      
+      .to(camera.position, { x: -3.8, y: 0, z: 5 }, 8)
+      // .to(Car.current.position, { y: -0.4 }, 8)
+
       .to(Car.current.rotation, { x: d2r(17) }, 9)
-      .to(Car.current.rotation, { y: d2r(265) }, 9)
-       .to(Car.current.position, { x: -4 }, 9)
-       .to(Car.current.position, { y: -.5 }, 9)
+      .to(Car.current.rotation, { y: d2r(270) }, 9)
+      .to(Car.current.position, { x: -4 }, 9)
+     
+      .to(camera.position, { x: -4, y: 0, z: 5 }, 9)
+      .to(camera.position, {z: 6},9)
+      //  .to(Car.current.position, { y: -.5 }, 9)
 
+      .to(Car.current.position, { x: -4.3 }, 10)
+     
+      // .to(Car.current.rotation, { y: d2r(275) }, 10)
+      // .to(camera.position, { x: -4, y: 0, z: 5 }, 10)
 
-      .to(Car.current.rotation, { x: d2r(16) }, 10)
-      .to(Car.current.rotation, { y: d2r(272) }, 10)
+      .to(Car.current.position, { x: -4.6 }, 11)
+      .to(Car.current.position, { y: -0.6 }, 11)
+      // .to(camera.position, { x: -4.1, y: 0, z: 5 }, 11) 
+
+      .to(Car.current.position, { x: -4.9 }, 12)
+      .to(Car.current.position, { y: 0 }, 12)
+      // .to(camera.position, { x: -4.1, y: 0, z: 5 }, 12) 
+
+      .to(Car.current.position, { x: -5.2 }, 13)
+      .to(Car.current.position, { y: 0 }, 13)
+      // .to(camera.position, {x: -5, y: 0, z: 5}, 13)
+
+      .to(Car.current.position, { x: -5.5 }, 14)
+      .to(Car.current.position, { y: 0.1 }, 14)
+      .to(Car.current.position, { x: -6 }, 15)
+      .to(Car.current.position, { y: 0.3 }, 15)
+      .to(Car.current.position, { x: -6.5 }, 16)
+      .to(Car.current.position, { y: 0.4 }, 16)
+      .to(Car.current.position, { x: -8.5 }, 17)
+      .to(Car.current.position, { y: 0.5 }, 17)
+
 
   }, [])
   return (
 
     // <group {...props} dispose={null} ref={Car} position={[-3,0,-0.5]} rotation={[d2r(0), -d2r(90), d2r(0)]} castShadow>
-    <group {...props} dispose={null} ref={Car} scale={1} position={[0, -6, -0.4]} rotation={[d2r(90), d2r(180), 0]} >
+    <group {...props} dispose={null} ref={Car} position={[0, -6, -0.4]} rotation={[d2r(90), d2r(180), 0]} >
+
       <mesh geometry={nodes.amdb11_wheel_03_amdb11_mirror_0.geometry} material={materials.PaletteMaterial002} position={[0.962, 0.376, 1.302]} rotation={[-Math.PI / 2, 0, 0]}>
 
       </mesh>

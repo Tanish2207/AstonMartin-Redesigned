@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Canvas dpr={[1, 2]} shadows camera={{ fov: 90 }} style={{ "position": "absolute" }}  >
+      <Canvas dpr={[1, 2]} shadows camera={{ fov: 90 }} style={{ position : "absolute" }}  >
 
         <color attach="background" args={["#35373b"]} />
         <ambientLight intensity={3} />
