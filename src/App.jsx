@@ -5,6 +5,8 @@ import { Aston } from './components/Aston';
 import Navbar from './components/navbar';
 import Landing from './components/landing';
 import Page2 from './components/page2';
+import Page3 from './components/page3';
+
 
 
 function App() {
@@ -22,12 +24,14 @@ function App() {
             <Scroll html style={{ width: "100%", margin: "0", padding: "0" }}>
               <Navbar />
               <Landing />
-              <Page2 />
+              {/* <Page2 /> */}
+              {/* <Page3/> */}
             </Scroll>
           </ScrollControls>
 
         </PresentationControls>
       </Canvas>
+      
     </>
   )
 }

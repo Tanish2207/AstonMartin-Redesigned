@@ -27,44 +27,123 @@
 }
 
 .power {
-  height: 30%;
-  width: 30%;
+  position:absolute;
+  /* border:1px solid cyan; */
+  left:122px;
+  height:100%;
+  width: 27%;
   display: flex;
   justify-content: space-between;
+  padding:10px;
+  
 
 }
 
-.powertext {
+.speed{
+  position:absolute;
+  left:614px;
+  height:100%;
+  width:400px;
+  position:absolute;
+  /* border:1px solid cyan; */
+  width: 27%;
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+}
+.mile{
   position: absolute;
-  color: black;
+    /* border: 1px solid cyan; */
+    left: 1055px;
+    height: 100%;
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+
+.powertext ,.speedtext,.miletext{
+  position: absolute;
+  color: white;
 }
 
 .bhp {
   font-weight: 200;
 }
+.mph{
+  font-weight: 200;
+  margin-left:6px;
+}
+
+.milebhp{
+  font-weight:200;
+  margin-left:6px;
+}
 
 .num {
-  position: absolute;
+  position: relative;
+  
+left:140px;
+  
 }
 
-.powerbar {
-  width: 200px;
-  height: 1px;
-  background-color: blue;
+.milenum{
+  position: relative;
+  left:140px
 }
 
-.powerprogress {
-  width: 110px;
+.speednum{
+  position:relative;
+  left:120px;
+}
+
+.powerbar,.speedbar ,.milebar{
+  width: 70%;
+  height: 2px;
+  background-color: #6B6B6B;
+  position: relative;
+  top:31px;
+}
+
+ .powerprogress { 
+  width: 195px;
   height: 100%;
-  background-color: red;
+  background-color:white;
   z-index: 999;
+  position:relative;
+  
+} 
+
+
+.speedprogress{
+
+width: 175px;
+  height: 100%;
+  background-color:white;
+  z-index: 999;
+  position:relative;
+}
+
+.mileprogress{
+  width: 245px;
+  height: 100%;
+  background-color:white;
+  z-index: 999;
+  position:relative;
 }
 
 .specs {
   color: black;
-  border: 1px solid black;
-  background-color: aliceblue;
+  /* border: 1px solid black; */
+  width:100%;
+  /* background-color: aliceblue; */
   height: 10vh;
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
+  top:80vh;
+  display:flex;
+  justify-content: space-between;
 }
+
+
+
