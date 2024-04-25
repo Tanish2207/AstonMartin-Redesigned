@@ -5,6 +5,7 @@ import { Aston } from './components/Aston';
 import Navbar from './components/navbar';
 import Landing from './components/landing';
 import Page2 from './components/page2';
+import TestDrive from './components/testDrive';
 
 
 function App() {
@@ -17,13 +18,14 @@ function App() {
         <ambientLight intensity={3} />
         <PresentationControls global>
           <Environment files="/env/metro_noord_2k.hdr" />
-          <ScrollControls pages={2} damping={0.2}>
+          <ScrollControls pages={2} damping={0.2}> */
             <Aston scale={1} />
             <Scroll html style={{ width: "100%", margin: "0", padding: "0" }}>
               <Navbar />
               <Landing />
               <Page2 />
-            </Scroll>
+              <TestDrive/>
+             </Scroll>
           </ScrollControls>
 
         </PresentationControls>
