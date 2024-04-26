@@ -5,7 +5,9 @@ import { Aston } from './components/Aston';
 import Navbar from './components/navbar';
 import Landing from './components/landing';
 import Page2 from './components/page2';
+import Page3 from './components/page3';
 import TestDrive from './components/testDrive';
+
 
 
 function App() {
@@ -26,13 +28,14 @@ function App() {
               <Navbar />
               <Landing />
               <Page2 />
-
               <TestDrive/>
              </Scroll>
+
           </ScrollControls>
 
         {/* </PresentationControls> */}
       </Canvas>
+      
     </>
   )
 }

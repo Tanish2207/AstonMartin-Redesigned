@@ -1,6 +1,11 @@
+
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
 import { useEffect, useState } from "react";
 import Navbar from "./navbar";
+
 import styles from "./page2.module.css";
+import Navbar from "./navbar";
 
 
 
@@ -91,8 +96,7 @@ const Page2 = () => {
           </div>
         </div>
       </div> */}
-
-    </div>)
-}
+      </div>
+)
 
 export default Page2;
