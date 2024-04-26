@@ -14,6 +14,7 @@ import { useFrame } from '@react-three/fiber';
 import { gsap } from "gsap";
 import { useThree } from '@react-three/fiber'
 
+
 function d2r(degrees) {
   return degrees * (Math.PI / 180);
 }
@@ -25,7 +26,9 @@ export function Aston(props) {
   const tl = useRef();
   const tlInit = useRef();
   const { camera } = useThree()
-  const { scene, gl } = useThree();
+  
+
+  
 
   useLayoutEffect(() => {
     tlInit.current = gsap.timeline({ defaults: { duration: 4, ease: 'power4.out' } });
@@ -39,8 +42,7 @@ export function Aston(props) {
   })
 
   useLayoutEffect(() => {
-    // Assuming `camera` is your PerspectiveCamera object
-    // camera.position.z = 0; // Move the camera further away
+   
     camera.fov = 90; // Increase the field of view
     camera.updateProjectionMatrix(); // Always needed after changing camera properties
 
@@ -109,13 +111,13 @@ export function Aston(props) {
       .to(Car.current.rotation, { x: d2r(17) }, 9)
       .to(Car.current.rotation, { y: d2r(270) }, 9)
       .to(Car.current.position, { x: -4 }, 9)
-     
+
       .to(camera.position, { x: -4, y: 0, z: 5 }, 9)
-      .to(camera.position, {z: 6},9)
+      .to(camera.position, { z: 6 }, 9)
       //  .to(Car.current.position, { y: -.5 }, 9)
 
       .to(Car.current.position, { x: -4.3 }, 10)
-     
+
       // .to(Car.current.rotation, { y: d2r(275) }, 10)
       // .to(camera.position, { x: -4, y: 0, z: 5 }, 10)
 
