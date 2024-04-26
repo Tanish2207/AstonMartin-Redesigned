@@ -6,6 +6,9 @@ import Navbar from './components/navbar';
 import Landing from './components/landing';
 import Page2 from './components/page2';
 import Page3 from './components/page3';
+import Menu from './components/menu';
+import Configure from './components/configure';
+import Preloader from './components/preloader';
 
 
 
@@ -22,8 +25,11 @@ function App() {
           <ScrollControls pages={2} damping={0.2}>
             <Aston scale={1} />
             <Scroll html style={{ width: "100%", margin: "0", padding: "0" }}>
+              {/* <Preloader/> */}
               <Navbar />
-              <Landing />
+              {/* <Configure></Configure> */}
+              <Menu/>
+              {/* <Landing /> */}
               {/* <Page2 /> */}
               {/* <Page3/> */}
             </Scroll>
