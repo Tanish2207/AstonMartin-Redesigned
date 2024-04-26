@@ -2,7 +2,7 @@ import React from 'react'
 
 const Landing = () => {
     return (
-        <div className="relative landing-container">z
+        <div className="relative landing-container">
 
             <div className="text-center text-white tracking-tight py-10">
                 <p className="text-xl pb-2"> Crafting Dreams, Engineering Excellence:</p>
