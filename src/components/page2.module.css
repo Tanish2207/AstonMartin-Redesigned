@@ -1,74 +1,27 @@
-.capture {
-  /* height: 100%; */
-  /* width: 100%; */
-  border: 1px solid red;
-
-}
-
-.right {
-  /* float: right; */
-  /* width: 30%; */
-  height: 100vh;
+.landing2_right {
   position: absolute;
-  left: 60%;
-  top: 100%;
+  top: 100vh;
+  left: 55%;
+  height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 46px;
   color: white;
-  padding: 10px 10px;
-  /* border: 1px solid green; */
+
 }
 
 
-.h1 {
+.landing2_right h2 {
+  font-size: 32px;
   font-weight: 800;
-  font-size: 40px;
 }
 
-.power {
-  position:absolute;
-  /* border:1px solid cyan; */
-  left:122px;
-  height:100%;
-  width: 27%;
-  display: flex;
-  justify-content: space-between;
-  padding:10px;
-  
-
-}
-
-.speed{
-  position:absolute;
-  left:614px;
-  height:100%;
-  width:400px;
-  position:absolute;
-  /* border:1px solid cyan; */
-  width: 27%;
-  display: flex;
-  justify-content: space-between;
-  padding:10px;
-}
-.mile{
-  position: absolute;
-    /* border: 1px solid cyan; */
-    left: 1055px;
-    height: 100%;
-    width: 27%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px; 
-}
-
-.powertext ,.speedtext,.miletext{
-  position: absolute;
-  color: white;
-}
-
-.bhp {
+.landing2_right p {
+  font-size: 18px;
   font-weight: 200;
+  line-height: 1.8rem;
 }
 .mph{
   font-weight: 200;
@@ -80,70 +33,13 @@
   margin-left:6px;
 }
 
-.num {
-  position: relative;
-  
-left:140px;
-  
-}
-
-.milenum{
-  position: relative;
-  left:140px
-}
-
-.speednum{
-  position:relative;
-  left:120px;
-}
-
-.powerbar,.speedbar ,.milebar{
-  width: 70%;
-  height: 2px;
-  background-color: #6B6B6B;
-  position: relative;
-  top:31px;
-}
-
- .powerprogress { 
-  width: 195px;
-  height: 100%;
-  background-color:white;
-  z-index: 999;
-  position:relative;
-  
-} 
-
-
-.speedprogress{
-
-width: 175px;
-  height: 100%;
-  background-color:white;
-  z-index: 999;
-  position:relative;
-}
-
-.mileprogress{
-  width: 245px;
-  height: 100%;
-  background-color:white;
-  z-index: 999;
-  position:relative;
-}
-
-.specs {
-  color: black;
-  /* border: 1px solid black; */
-  width:100%;
-  /* background-color: aliceblue; */
-  height: 10vh;
+/* ********************************************************** */
+/*  
+.prog-cont{
+  border: 1px solid red;
+  background-color: aqua;
   position: absolute;
-  /* bottom: 0; */
-  top:80vh;
-  display:flex;
-  justify-content: space-between;
-}
-
-
+  top: 100vh;
+  height: 100vh;
+} */
 
