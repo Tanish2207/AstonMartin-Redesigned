@@ -1,0 +1,13 @@
+.arrTDCont {
+  color: white;
+}
+
+.reqTD-btn{
+  background-color: #339966;
+  color: white;
+  border-radius: 8px;
+}
+.reqTD-btn:hover{
+  background-color: #127544;
+  transition: ease-out all 300ms;
+}
