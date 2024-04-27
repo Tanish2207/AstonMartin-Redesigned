@@ -25,10 +25,10 @@ function App() {
           <ScrollControls pages={2} damping={0.2}>
             <Aston scale={1} />
             <Scroll html style={{ width: "100%", margin: "0", padding: "0" }}>
-              {/* <Preloader/> */}
               <Navbar />
+              <Preloader/>
               {/* <Configure></Configure> */}
-              <Menu/>
+              {/* <Menu/> */}
               {/* <Landing /> */}
               {/* <Page2 /> */}
               {/* <Page3/> */}
