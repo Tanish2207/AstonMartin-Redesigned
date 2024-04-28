@@ -1,0 +1,36 @@
+
+.landing2_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 46px;
+    color: white;
+}
+
+
+.landing2_right h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.landing2_right p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.8rem;
+}
+
+.mph {
+    font-weight: 200;
+    margin-left: 6px;
+}
+
+.milebhp {
+    font-weight: 200;
+    margin-left: 6px;
+}
+
+/* ********************************************************** */
+
+.prog-cont {
+    background: linear-gradient(92deg, #396 0%, #004F32 100%);
+}

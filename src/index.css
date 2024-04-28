@@ -23,7 +23,7 @@ body {
   box-shadow: 0px 1px 10px #999;
 }
 
-.landing-left {
+/* .landing-left {
   top: calc(100vh - 20rem);
   left: 7.875rem;
 }
@@ -31,7 +31,7 @@ body {
 .landing-right {
   top: calc(100vh - 17.125rem);
   right: 3rem;
-}
+} */
 
 .myAston {
   /* background: linear-gradient(90deg, #D4A9FF 0%, #364AFF 100%); */
