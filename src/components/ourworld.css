@@ -1,0 +1,15 @@
+.ourworld{
+  display: none;
+  width: 408px;
+  height: 100vh;
+  position: relative;
+  left: 408px;
+  background-color: #161A11;
+  top: -775px;
+}
+
+.intensity{
+  
+  position:relative;
+  top:72px;
+}

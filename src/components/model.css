@@ -1,0 +1,25 @@
+.models{
+  display: none;
+  width: 408px;
+  height: 100vh;
+  background-color: #161A11;
+  position: relative;
+  left: 408px;
+  top: -773px;
+
+}
+.modellist{
+  position: relative;
+  top: 76px;
+}
+
+/* #modellist{
+  display:none;
+  width: 408px;
+  height: 100vh;
+  background-color: #161A11;
+  position: relative;
+  left: 408px;
+  top: -113px;
+
+} */
