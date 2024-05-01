@@ -22,14 +22,20 @@ var check = true;
 const handle = () => {
 
   const modellist = document.getElementById('modellist');
-  if(check){
-     modellist.style.display="block";
-check =false;
-  }
-else{
-  modellist.style.display="none";
-  check=true;
-}
+  modellist.style.display="block";
+  const world=document.getElementById("world");
+  world.style.display="none";
+  const owner=document.getElementById("owner");
+  owner.style.display="none";
+
+
+//   if(check){
+// check =false;
+//   }
+// else{
+//   modellist.style.display="none";
+//   check=true;
+// }
   
   // const model = document.querySelector(".models");
   // model.classList.add("models"); // Remove the dot
@@ -40,19 +46,26 @@ else{
 
 
 //code for owners dropdown
-var checkowner=true;
+// var checkowner=true;
 const handleimg2=()=>{
+
+  const modellist = document.getElementById('modellist');
+  modellist.style.display="none";
+  //first remove the ourworld dropdown;
+  const world=document.getElementById("world");
+  world.style.display="none";
   const owner=document.getElementById("owner");
+  owner.style.display="block";
+ 
 
-  if(checkowner){
-    owner.style.display="block";
-    checkowner=false;
-  }
+  // if(checkowner){
+  //   checkowner=false;
+  // }
 
-  else{
-    owner.style.display="none";
-    checkowner=true;
-  }
+  // else{
+  //   owner.style.display="none";
+  //   checkowner=true;
+  // }
 }
 
 
@@ -63,19 +76,28 @@ const handlecross=()=>{
 }
 
 //code for ourworld dropdown
-var checkworld=true;
+// var checkworld=true;
 const handleimg3=()=>{
-  const owner=document.getElementById("world");
+//first remove the dropdown of models
+  const modellist = document.getElementById('modellist');
+  modellist.style.display="none";
 
-  if(checkworld){
-    owner.style.display="block";
-    checkworld=false;
-  }
+  //first remove the dropdown of owners
+  const owner=document.getElementById("owner");
+  owner.style.display="none";
+ 
 
-  else{
-    owner.style.display="none";
-    checkworld=true;
-  }
+  const world=document.getElementById("world");
+  world.style.display="block";
+
+  // if(checkworld){
+  //   checkworld=false;
+  // }
+
+  // else{
+  //   owner.style.display="none";
+  //   checkworld=true;
+  // }
 }
 
 
@@ -86,11 +108,11 @@ const handleimg3=()=>{
     <div className={styles.cross}><img src="x-button.png" className="crosss" onClick={handlecross}></img></div>
     <div className={styles.links}>
     <li>Home</li>
-    <li>Models <img src="down-chevron.png"  className={styles.img1}   onClick={handle}/></li>
+    <li>Models <img src="down-chevron.png"  className={styles.img1}   onMouseEnter={handle}/></li>
     <li>Find a Dealer</li>
     <li>Preowned</li>
-    <li>Owners<img src="down-chevron.png" className={styles.img2} onClick={handleimg2}/></li>
-    <li>Our World<img src="/down-chevron.png" className={styles.img3}   onClick={handleimg3}/></li>
+    <li>Owners<img src="down-chevron.png" className={styles.img2} onMouseEnter={handleimg2}/></li>
+    <li>Our World<img src="/down-chevron.png" className={styles.img3}   onMouseEnter={handleimg3}/></li>
     <li>Experiences</li>
     <li>Store</li>
     <li>F1 Team</li>
