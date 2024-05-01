@@ -4,10 +4,8 @@ import { Environment, ScrollControls, Scroll, OrbitControls } from '@react-three
 import { Aston } from './components/Aston';
 import Preloader from './components/preloader';
 import Overlay from './overlay';
-
-
-
-
+import TestApi from './components/test-api';
+``
 function App() {
 
   return (
@@ -24,6 +22,7 @@ function App() {
           <Scroll html style={{ width: "100%", margin: "0", padding: "0" }}>
             <Preloader />
             <Overlay />
+            <TestApi />
           </ Scroll>
         </ScrollControls>
 
