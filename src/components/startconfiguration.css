@@ -1,0 +1,386 @@
+.startconfiguration{
+  width:100vw;
+  height:100vh;
+  background-color: transparent linear-gradient(0deg,#3c3f3e 0% 30%,#606161 70% 100%) 0 0 no-repeat padding-box;
+position:absolute;
+top:0px;}
+
+.imagessection{
+  width:100%;
+  height:66vh;
+  background-color: blueviolet;
+  overflow:hidden;
+
+}
+
+.images{
+  overflow:hidden;
+}
+
+.image1{
+  overflow:hidden;
+}
+
+#spantp{
+  width:40px;
+  height:20px;
+}
+
+.imagesslider{
+  display:flex;
+}
+
+.imageslider{
+  width: 8px;
+    height: 8px;
+    background-color: #ced6e7;
+    border-radius: 50%;
+    margin-right: 14px;
+    position: relative;
+    top: 58vh;
+    left: 45vw;
+    cursor:pointer;
+}
+
+.imageslider:active{
+background-color:white;
+}
+
+/* .features{
+  width:100vw;
+  height:8vh;
+  background-color: grey;
+}
+
+.features p{
+width:8vw;
+height:100%;
+background-color:black;
+border-radius:7px 7px 0px 0px;
+padding:0px 24px 0px 24px;
+} */
+.features p{
+  width: 12vw;
+      height: 100%;
+      font-size: 16px;
+      font-weight: 700;
+      background-color: #414446;
+      border-radius: 7px 7px 0px 0px;
+      padding: 0px 24px 0px 24px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      position: relative;
+      top: 7px;
+      left: 1vw;}
+
+      /* .features p:active{
+        color:red;
+      }
+   */
+      .features {
+        width: 100vw;
+        height: 8vh;
+        background-color: #5b5d60;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99100;
+    }
+    #interior{
+      background-color: #5b5d60;
+    }
+    #interioroptions{
+      background-color: #5b5d60;
+    }
+    #personalisation{
+      background-color: #5b5d60;
+    }
+    #accessories{
+      background-color: #5b5d60;
+    }
+
+  .modifications p{
+    width: 12vw;
+        height: 100%;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #414446;
+        /* border-radius: 7px 7px 0px 0px; */
+        padding: 0px 24px 0px 24px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        top: 0px;
+        left: 0vw;}
+    
+    .modifications{
+    width: 100vw;
+        height: 8vh;
+        /* background-color: grey; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 888;
+    }
+
+    #paint{
+      border-right: 1px solid grey;
+    }
+    
+            #exteriorpackages{
+              border-right: 1px solid grey;
+            }
+            #liveries{
+              border-right: 1px solid grey;
+            }
+            #grillefinish{
+              border-right: 1px solid grey;
+            }
+            #roof{
+              border-right: 1px solid grey;
+            }
+            #wheels{
+              border-right: 1px solid grey;
+            }
+            #taillights{
+              border-right: 1px solid grey;
+            }
+            #glazing{
+              border-right: 1px solid grey;
+            }
+            #doorhandles{
+              border-right: 1px solid grey;
+            }
+            #accesories{
+              border-right: 1px solid grey;
+            }
+
+    .colorplates {
+      height: 18vh;
+      display: flex;
+      align-items: center;
+      /* display:none; */
+      padding: 0px 20px;
+      z-index: 888;
+  }
+  
+  .colorplates img {
+      height: 100px;
+      width: 50px;
+      position: relative;
+      /* left: 30px; */
+      margin-right: 9px;
+  }
+
+    /* .colorplates img:hover{
+    
+    object-fit:scale-down;
+    
+    } */
+    
+  /* .startconfiguration .images img{
+    position:absolute;
+    overflow:hidden;
+  object-fit:contain;
+    
+    /* display:none; 
+  } */
+
+  .startconfiguration .images img {
+    position: absolute;
+    top: -16%;
+    overflow: hidden;
+    height: auto;
+    width: 113vw;
+    -o-object-fit: contain;
+    object-fit: contain;
+    /* display: none; */
+}
+  .startconfiguration .images{
+    object-fit: contain;
+    overflow:hidden;
+  }
+
+  .startconfiguration .images #img1{
+    /* display:none; */
+    transition:ease all 3s;
+    object-fit:contain;
+  }
+
+  #img1{
+    object-fit:contain;
+  }
+
+  .startconfiguration .images #img2{
+    display:none;
+  }
+
+  .startconfiguration .images #img3{
+    display:none;
+  }
+
+  .startconfiguration .images #img4{
+    display:none;
+  }
+
+  .startconfiguration .images{
+    overflow:hidden;
+  }
+
+  /* .colorplates .image:active{
+    border-bottom:solid white 2px;
+  } */
+ 
+#BlackPlateOne{
+  /* object-fit:contain; */
+  /* margin-left:30px; */
+  transition: transform 0.3s ease;
+}
+.drag-target {
+}
+
+.image{
+  height:100px;
+  width:50px;
+  overflow:hidden;
+  margin-right:9px;
+  touch-action: none;
+}
+.image img {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.image:hover .imagescale {
+  transform: scale(1.5); /* Scale up the image on hover */
+}
+  .selectionsection{
+    background-color:#414446;
+    z-index: 777;
+  }
+
+  .colorplateinformation {
+    width: 500px;
+    height: 79%;
+    display: flex;
+    position: relative;
+    padding: 0px 20px;
+    right: -62vw;
+    border-left: solid grey 1px;
+}
+
+
+
+#colortype {
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#colorname {
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 700;
+}
+
+
+#colorplateinfobutton {
+  position: relative;
+  top: -34px;
+  left: 8px;
+  width: 33px;
+  height: auto;
+  /* display:none; */
+}
+
+
+
+  /* #colorplateverticalstrip{
+    width:1px;
+    height:30px;
+    position:relative;
+    left:70px;
+    background-color:#07f4f4;
+  } */
+
+
+  .colorinfowindow {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: -11vh;
+    background-color: #00000070;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(12px);
+   display:none;
+    z-index: 1000;
+}
+
+#colorcard {
+  width: 47vw;
+  height: 72vh;
+  transform: translate(54%,-8%);
+  background-color: white;
+  overflow: hidden;
+}
+
+#colorimage img {
+  position: relative;
+  width: 230px;
+  height: 535px;
+  top: 0px;
+  left: 0px;
+}
+
+#colorcardcolorname {
+  
+  color: black;
+  line-height: 52px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#colorinformation {
+    width: 27%;
+    height: 100%;
+    background-color: white;
+    width: 469px;
+    position: relative;
+    top: -535px;
+    left: 230px;
+    padding: 38px;
+}
+#colorcardcolorinformation {
+  line-height: 32px;
+  margin-top: 26px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+#astonmartinlogo {
+  width: 200px;
+  height: auto;
+  position: relative;
+  left: 44vw;
+  top: 0vh;
+}
+
+#informationcrossbutton {
+  width: 50px;
+  position: relative;
+  top: -10vh;
+  left: 93vw;
+}
+
+#videocrossbuttonhover{}
+
+#videocrossbuttonhover:hover{
+  background-color:#00000070;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  
+}
