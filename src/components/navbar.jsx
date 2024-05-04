@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (<>
         {/* <Menu/> */}
-        <nav id="nav" className="sticky flex text-white justify-between items-center px-40 py-4 h-20">
+        <nav id="nav" className="sticky flex text-white justify-between items-center px-40 py-4 h-20" style={{backgroundColor:"#021926"}}>
 
             <img src="hamburger.svg"/>
 

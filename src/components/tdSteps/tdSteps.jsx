@@ -3,8 +3,8 @@ import React from 'react'
 import './tdSteps.css';
 function TestDriveSteps() {
   return (
-    <>
-      <div className="w-screen ">
+    <div style={{ backgroundColor: "#021926" }}>
+      <div className="w-full" >
         <h2 className='TD-heading text-xl font-bold py-3'>Arrange a Test Drive</h2>
       </div>
       <p className='text-center text-lg text-white mt-6 mb-2'>How it works</p>
@@ -47,7 +47,7 @@ function TestDriveSteps() {
         </svg>
 
       </div>
-    </>
+    </div>
   );
 }
 

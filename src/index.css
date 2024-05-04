@@ -47,3 +47,35 @@ body {
   }
 }
 
+.selDeaBtn {
+  background-color: #18CD7F;
+}
+
+.selDeaBtn:hover {
+  background-color: #0ba261;
+  color: white;
+  transition: all 400ms;
+}
+.viewDea-btn{
+  background-color: #F2FFFA;
+  color: #0E995D;
+}
+.viewDea-btn:hover{
+  background-color: #e6e4e4;
+  transition: all 400ms;
+
+}
+.dealerCont{
+  box-sizing: border-box;
+}
+.dealerCont:last-child{
+  padding-bottom: 2rem;
+}
+.userSubmitBtn {
+  background-color: #18CD7F;
+}
+
+.userSubmitBtn:hover {
+  background-color: #0ba261;
+  transition: all 100ms;
+}
