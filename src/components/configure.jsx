@@ -1,6 +1,3 @@
-
-  
-  
   import styles from './configure.module.css';
   import { useState, useEffect } from 'react';
   import './configure.css';
@@ -54,5 +51,6 @@
     </>
   );
 };
+
 
 export default Configure;

@@ -23,16 +23,6 @@ body {
   box-shadow: 0px 1px 10px #999;
 }
 
-.landing-left {
-  top: calc(100vh - 20rem);
-  left: 7.875rem;
-}
-
-.landing-right {
-  top: calc(100vh - 17.125rem);
-  right: 3rem;
-}
-
 .myAston {
   /* background: linear-gradient(90deg, #D4A9FF 0%, #364AFF 100%); */
   background: linear-gradient(to right,
@@ -57,11 +47,35 @@ body {
   }
 }
 
-/* .landing-container {
-   background: url("/Rectangle 9.svg"); 
-   background-size: cover;
-  background-position: right 0 bottom 0;
-  height: 100vh;
-  z-index: -1; 
-} */
+.selDeaBtn {
+  background-color: #18CD7F;
+}
 
+.selDeaBtn:hover {
+  background-color: #0ba261;
+  color: white;
+  transition: all 400ms;
+}
+.viewDea-btn{
+  background-color: #F2FFFA;
+  color: #0E995D;
+}
+.viewDea-btn:hover{
+  background-color: #e6e4e4;
+  transition: all 400ms;
+
+}
+.dealerCont{
+  box-sizing: border-box;
+}
+.dealerCont:last-child{
+  padding-bottom: 2rem;
+}
+.userSubmitBtn {
+  background-color: #18CD7F;
+}
+
+.userSubmitBtn:hover {
+  background-color: #0ba261;
+  transition: all 100ms;
+}

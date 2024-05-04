@@ -13,17 +13,14 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 24%, rgba(24,151,69,1) 44%, rgba
 
 }
 
-.configure img{
-  
-}
-
+/* 
 .aston{
   width: 809px;
   height: auto;
   position: absolute;
   top: 23%;
   left: 20%;
-}
+} */
 
 .playbtn {
   width: 47px;
