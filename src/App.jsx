@@ -4,6 +4,7 @@ import { Environment, ScrollControls, Scroll, OrbitControls } from '@react-three
 import { Aston } from './components/Aston';
 import Preloader from './components/preloader';
 import Overlay from './overlay';
+import Footer from './components/footer/footer';
 ``
 function App() {
 
@@ -16,11 +17,12 @@ function App() {
         {/* <PresentationControls global> */}
         <OrbitControls enabled={false} />
         <Environment files="/env/metro_noord_2k.hdr" />
-        <ScrollControls pages={3} damping={0.2}>
+        <ScrollControls pages={3.45} damping={0.2}>
           <Aston scale={1} />
           <Scroll html style={{ width: "100%", margin: "0", padding: "0" }}>
             {/* <Preloader /> */}
             <Overlay />
+            {/* <Footer /> */}
           </ Scroll>
         </ScrollControls>
 

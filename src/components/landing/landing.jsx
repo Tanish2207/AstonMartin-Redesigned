@@ -6,7 +6,7 @@ const Landing = () => {
         <div className=" grid grid-cols-8 grid-rows-8 h-screen w-screen">
             
 
-            <div className="col-start-3 col-span-4 text-center text-white tracking-tight py-10">
+            <div className="col-start-3 col-span-4 row-start-2 text-center text-white tracking-tight py-10">
                 <p className="text-xl pb-2"> Crafting Dreams, Engineering Excellence:</p>
                 <h1 className="text-2xl font-black">Aston Martin, where performance meets passion</h1>
             </div>

@@ -1,4 +1,5 @@
 import ArrangeTD from "./components/arrangeTD/arrangeTD"
+import Footer from "./components/footer/footer"
 import Landing from "./components/landing/landing"
 import Navbar from "./components/navbar"
 import Page2 from "./components/page2/page2"
@@ -13,6 +14,7 @@ const Overlay = () => {
       <Landing />
       <Page2 />
       <ArrangeTD />
+      {/* <Footer /> */}
     </>
   )
 }

@@ -66,10 +66,17 @@ export function Aston(props) {
       x: d2r(20.40),
       y: d2r(314.80),
       z: d2r(6)
-    }, 2)
-
-
-      
+    }, 2)   
+    .to(Car.current.position, {
+      x: 3.520,
+      y: 0,
+      z: -7.5
+    }, 3)
+    .to(Car.current.rotation, {
+      x: d2r(20.40),
+      y: d2r(314.80),
+      z: d2r(6)
+    }, 3)   
 
 
   }, [])

@@ -10,4 +10,5 @@
 .reqTD-btn:hover{
   background-color: #127544;
   transition: ease-out all 300ms;
+  scale: 1.02;
 }

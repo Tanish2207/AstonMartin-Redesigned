@@ -1,7 +1,3 @@
-// import Menu from "./menu";
-// import './menu.css';
-// import './model.css';
-// import styles from './menu.module.css';
 
 
 const Navbar = () => {
@@ -15,7 +11,7 @@ const Navbar = () => {
 
     return (<>
         {/* <Menu/> */}
-        <nav id="nav" className="sticky flex text-white justify-between items-center px-40 py-4 h-20" style={{backgroundColor:"#021926"}}>
+        <nav id="nav" className="fixed top-0 w-full flex text-white justify-between items-center px-40 py-4 h-20" style={{backgroundColor:"#021926"}}>
 
             <img src="hamburger.svg"/>
 
