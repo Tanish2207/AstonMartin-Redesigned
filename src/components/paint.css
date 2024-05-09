@@ -14,7 +14,7 @@
   flex-direction:row;
   position: relative;
   top: -8vh;
-  left: 10vw;
+  left: 12vw;
   display:flex;
 }
 
@@ -24,20 +24,27 @@
   height: 100%;
   font-size: 16px;
   font-weight: 700;
-  background-color: #414446;
+  /* background-color: #414446; */
+  background-color:#292b2d;
   /* border-radius: 7px 7px 0px 0px; */
+  border-right:1px solid #383a3b;
   padding: 0px 24px 0px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   top: 0px;
-  left: 0vw;
+  left: -1vw;
+  cursor:pointer;
+}
+
+#paintsection p:hover{
+  background-color:#313335;
 }
 #blackandgreys{
   color:white;
-  border-right:1px solid grey;
-  border-bottom:1px solid white;
+  border-right:1px solid #383a3b;
+  /* border-bottom:1px solid white; */
   
 
 }
