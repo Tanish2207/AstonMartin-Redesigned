@@ -37,17 +37,8 @@
   transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
 
-#purpleplateone{
 
-}
 
-#purpleplatetwo{
-
-}
-
-/* .purpleblueimage:hover .purpleimagescale{
-  transform: scale(1.5); /* Scale up the image on hover //
-} */
 
 .purpleblueimage{
   overflow:hidden;
@@ -57,9 +48,7 @@
   transform: scale(1.5);
   cursor:pointer;
 }
-/* .purpleimagescale img:hover{
-  transform: scale(1.5);
-} */
+
 
 .colorplateinformation {
   height: 18vh;
