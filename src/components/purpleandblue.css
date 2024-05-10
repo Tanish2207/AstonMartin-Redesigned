@@ -1,0 +1,154 @@
+/* .colorplates {
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  /* display:none; //
+  padding: 0px 20px;
+  z-index: 888;
+} */
+
+.purpleblueplates {
+  height: 18vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  
+  padding: 0px 20px;
+  z-index: 888;
+}
+
+.purpleblueimage{
+  height:100px;
+  width:50px;
+  /* overflow:hidden; */
+  margin-right:9px;
+  touch-action: none;
+}
+
+.purpleblueimage img{
+  height: 100px;
+      width: 50px;
+      position: relative;
+      /* left: 30px; */
+      margin-right: 9px;
+}
+.purpleblueimage img {
+  
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+
+
+
+.purpleblueimage{
+  overflow:hidden;
+}
+
+.purpleblueimage:hover .purpleimagescale{
+  transform: scale(1.5);
+  cursor:pointer;
+}
+
+
+.colorplateinformation {
+  height: 18vh;
+  width: 20vw;
+  position: relative;
+  display: flex;
+  top: 0vh;
+  left: 59vw;
+  border-left: 1px solid grey;
+  /* background-color: red;
+  /* background-color: red;
+  /* background-color: red;
+}
+
+
+.purpleblueplates img {
+  height: 100px;
+  width: 50px;
+  position: relative;
+  /* left: 30px; */
+  margin-right: 9px;
+}
+
+#purpleplatesection{
+  display: block;
+    background:#3c3f3e;;
+    position: relative;
+}
+
+
+#colortype {
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#colorname {
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 700;
+}
+#BlackPlateOne{
+  /* object-fit:contain; */
+  /* margin-left:30px; */
+  transition: transform 0.3s ease;
+}
+
+#colorplateinformationsection{
+  height: 18vh;
+    width: 20vw;
+    position: relative;
+    display: flex;
+    top: 0vh;
+    left: 55vw;
+    border-left: 1px solid grey;
+    /* background-color: red;*/
+}
+.colorplatecontent{
+  position: relative;
+  top: 20px;
+  left:2px;
+}
+
+#purpleplate{
+  position: relative;
+    top: 2vh;
+    left: 2vw;
+    height:100px;
+    width:50px;
+}
+
+#purplecolortype{
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#purplecolorname{
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 700;
+}
+
+#PurpleColorInfomationContent{
+  position: relative;
+    top: 1vw;
+    left: 3vw;
+}
+
+#purplecolorplateinfobutton{
+  position: relative;
+    top: -5vh;
+    left: 8px;
+    width: 33px;
+    height: 33px;
+}
+
+
+#purpleblueplatessection{
+  display:none;
+}
