@@ -20,9 +20,8 @@ import StartConfiguration from './components/startconfiguration.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-    <DealerSelection.Provider value={[0, 0, 0]}>
-      {console.log("hello")}
-      <BrowserRouter>
+    <BrowserRouter>
+      <DealerSelection.Provider value={[0, 0, 0]}>
         <Routes>
           <Route exact path="/"
             element={<><Preloader /><App /></>} />
@@ -45,7 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route exact path="/startconfig"
             element={<StartConfiguration />} />
         </Routes>
-      </BrowserRouter>
-    </DealerSelection.Provider >
+      </DealerSelection.Provider >
+    </BrowserRouter>
   </>
 )
