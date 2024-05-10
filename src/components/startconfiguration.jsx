@@ -1,12 +1,6 @@
-
-
-
-
-
 import './startconfiguration.css';
 import Paint from './paint';
 import './paint.css';
-import Purpleblue from './purpleandbluesection';
 const StartConfiguration = () => {
 
   const handleimg1=()=>{
