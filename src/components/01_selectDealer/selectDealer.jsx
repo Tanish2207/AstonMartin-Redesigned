@@ -4,7 +4,7 @@ import axios from 'axios'
 import { DealerSelection } from '../../contexts/dealerSelection';
 
 const apiCall = async () => {
-    const res = await axios.get(`http://localhost:3000/dealers`)
+    const res = await axios.get(`${process.env.BASE_URL}/dealers`)
     // console.log(res.data[2].compName)
     return res;
 }

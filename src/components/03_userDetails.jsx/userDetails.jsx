@@ -30,7 +30,7 @@ export const UserDetails = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const response = await axios.post("http://localhost:3000/users", formData);
+        const response = await axios.post(`${process.env.BASE_URL}/users`, formData);
 
         if (response.status === 200) {
             // Success!
