@@ -5,7 +5,7 @@ import './page2.css'
 
 
 
-const Page2 = () => {
+export const Page2 = () => {
   gsap.registerPlugin(ScrollTrigger);
 
   const progCont = useRef(null)
@@ -130,5 +130,4 @@ const Page2 = () => {
   )
 }
 
-export default Page2;
 

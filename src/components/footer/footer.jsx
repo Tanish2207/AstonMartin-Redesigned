@@ -1,6 +1,6 @@
 import { RiMailLine } from "@remixicon/react"
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <div className="py-16 px-3 flex flex-col md:flex-row md:px-24 md:gap-14" style={{ backgroundColor: "#0A192F", color: "#CFD3D7" }}>
 
@@ -98,5 +98,3 @@ const Footer = () => {
         </div>
     )
 }
-
-export default Footer

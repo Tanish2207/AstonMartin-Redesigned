@@ -1,10 +1,9 @@
 import "./arrangeTD.css";
-import { Link, Navigate, useNavigate } from "react-router-dom";
-import Footer from "../footer/footer";
+import {Footer} from "../footer/footer";
 
 
 
-const ArrangeTD = () => {
+export const ArrangeTD = () => {
   // const navigate = useNavigate();
   return (
     <>
@@ -29,4 +28,3 @@ const ArrangeTD = () => {
   );
 };
 
-export default ArrangeTD;

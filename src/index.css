@@ -56,21 +56,26 @@ body {
   color: white;
   transition: all 400ms;
 }
-.viewDea-btn{
+
+.viewDea-btn {
   background-color: #F2FFFA;
   color: #0E995D;
 }
-.viewDea-btn:hover{
+
+.viewDea-btn:hover {
   background-color: #e6e4e4;
   transition: all 400ms;
 
 }
-.dealerCont{
+
+.dealerCont {
   box-sizing: border-box;
 }
-.dealerCont:last-child{
+
+.dealerCont:last-child {
   padding-bottom: 2rem;
 }
+
 .userSubmitBtn {
   background-color: #18CD7F;
 }
@@ -79,3 +84,17 @@ body {
   background-color: #0ba261;
   transition: all 100ms;
 }
+.model-dropdwn{
+  background-color: #161A11;
+}
+.model-dropdwn:hover {
+  background-color: #1d1e1a;
+  transition: all 100ms;
+}
+.model-dropdwn option{
+  background-color: #333331;
+}
+/* Wasn't working ------------ */
+/* .model-dropdwn option:hover{
+  background-color: red;
+} */

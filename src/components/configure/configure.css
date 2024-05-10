@@ -1,0 +1,48 @@
+.configure {
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 24%, rgba(3, 122, 45, 1) 45%, rgba(0, 0, 0, 1) 73%);
+}
+
+
+.dbs12config{
+  position: absolute;
+  top: 25%;
+  left: 27%;
+  width: 600px;
+}
+
+.playbtn {
+  width: 45px;
+  /* height: auto; */
+  position: absolute;
+  top: 165px;
+  left: 50%;
+  cursor:pointer;
+}
+
+
+/* videocross for full screen*/
+#videocross {
+  width: 37px;
+  position: absolute;
+  top: 8%;
+  left: 94%;
+  display: none;
+}
+
+#videocross:hover {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: rgba(190, 214, 230, 0.152);
+  cursor: pointer;
+}
+.config-vdo {
+  position: relative;
+  top: -164px;
+  width: 100vw;
+  left: 3px;
+  height: auto;
+}

@@ -12,22 +12,21 @@ import React, { useLayoutEffect, useRef, useEffect } from 'react'
 import { useGLTF, useScroll } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 import { gsap } from "gsap";
-import { useThree } from '@react-three/fiber'
 
 
 function d2r(degrees) {
   return degrees * (Math.PI / 180);
 }
 
-export function Aston(props) {
+export const Aston = (props) => {
   const { nodes, materials } = useGLTF('./models/aston_martin_transformed.glb')
   const Car = useRef();
   const scroll = useScroll();
   const tl = useRef();
   const tlInit = useRef();
-  
 
-  
+
+
 
   useLayoutEffect(() => {
     tlInit.current = gsap.timeline({ defaults: { duration: 4, ease: 'power4.out' } });
@@ -41,42 +40,40 @@ export function Aston(props) {
   })
 
   useLayoutEffect(() => {
-  
-
     tl.current = gsap.timeline({ defaults: { duration: .8, ease: 'none' } })
 
     tl.current
-    .to(Car.current.position, {
-      x: -4.5,
-      y: -0.28,
-      z: -9.5
-    }, 0.2)
-    .to(Car.current.rotation, {
-      x: d2r(90),
-      y: d2r(270),
-      z: d2r(79.60)
-    }, 0.2)
+      .to(Car.current.position, {
+        x: -4.5,
+        y: -0.28,
+        z: -9.5
+      }, 0.2)
+      .to(Car.current.rotation, {
+        x: d2r(90),
+        y: d2r(270),
+        z: d2r(79.60)
+      }, 0.2)
 
-    .to(Car.current.position, {
-      x: 3.520,
-      y: 0,
-      z: -7.5
-    }, 2)
-    .to(Car.current.rotation, {
-      x: d2r(20.40),
-      y: d2r(314.80),
-      z: d2r(6)
-    }, 2)   
-    .to(Car.current.position, {
-      x: 3.520,
-      y: 0,
-      z: -7.5
-    }, 3)
-    .to(Car.current.rotation, {
-      x: d2r(20.40),
-      y: d2r(314.80),
-      z: d2r(6)
-    }, 3)   
+      .to(Car.current.position, {
+        x: 3.520,
+        y: 0,
+        z: -7.5
+      }, 2)
+      .to(Car.current.rotation, {
+        x: d2r(20.40),
+        y: d2r(314.80),
+        z: d2r(6)
+      }, 2)
+      .to(Car.current.position, {
+        x: 3.520,
+        y: 0,
+        z: -7.5
+      }, 3)
+      .to(Car.current.rotation, {
+        x: d2r(20.40),
+        y: d2r(314.80),
+        z: d2r(6)
+      }, 3)
 
 
   }, [])

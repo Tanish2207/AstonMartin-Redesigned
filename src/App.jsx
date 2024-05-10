@@ -2,9 +2,9 @@ import './App.css';
 import { Canvas } from '@react-three/fiber';
 import { Environment, ScrollControls, Scroll, OrbitControls } from '@react-three/drei'
 import { Aston } from './components/Aston';
-import Preloader from './components/preloader';
-import Overlay from './overlay';
-import Footer from './components/footer/footer';
+import { Preloader } from './components/preloader/preloader';
+import { Overlay } from './overlay';
+import { Footer } from './components/footer/footer';
 ``
 function App() {
 
