@@ -12,7 +12,7 @@ function App() {
     <>
       <Canvas dpr={[1, 2]} shadows camera={{ fov: 50, position: [0, 0, 0], rotation: [0, 0, 0] }} style={{ position: "absolute" }}>
 
-        <color attach="background" args={["#021926"]} />
+        <color attach="background" args={["#232425"]} />
         <ambientLight intensity={6} />
         {/* <PresentationControls global> */}
         <OrbitControls enabled={false} />

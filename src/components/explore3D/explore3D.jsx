@@ -31,7 +31,7 @@ export const Explore3D = () => {
     return (
         <Canvas dpr={[1, 2]} shadows style={{ position: "absolute", paddingTop: "5rem", zIndex: "-6" }}>
             <PerspectiveCamera makeDefault rotation={[d2r(-8), 0, 0]} position={[0.36, 1.7, 5.02]} />
-            <color attach="background" args={["#021926"]} />
+            <color attach="background" args={["#171818"]} />
             <ambientLight intensity={3} />
             <OrbitControls enabled={true} />
             <Environment files="/env/metro_noord_2k.hdr" />

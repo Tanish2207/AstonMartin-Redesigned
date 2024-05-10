@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './configure.css';
+import { Link } from 'react-router-dom';
 
 export const Configure = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -50,6 +51,7 @@ export const Configure = () => {
         </video>
       )}
       <span><img src="videocrossbutton.png" alt="" id="videocross" /></span>
+      <Link to="/startconfig"><button className='absolute bottom-16 text-white reqTD-btn px-4 py-2 rounded-sm font-semibold text-xl' style={{left: "45%"}}>Customize</button></Link>
     </div>
 
   );
