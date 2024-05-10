@@ -14,6 +14,7 @@ import { SelectModel } from './components/02_selectModel/selectModel.jsx';
 import { DealerSelection } from './contexts/dealerSelection.js';
 import { Preloader } from './components/preloader/preloader.jsx';
 import { Explore3D } from './components/explore3D/explore3D.jsx';
+import StartConfiguration from './components/startconfiguration.jsx';
 
 
 
@@ -41,6 +42,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             element={<><Navbar /><SelectModel /></>} />
           <Route exact path="/explore"
             element={<><Navbar /><Explore3D /></>} />
+          <Route exact path="/startconfig"
+            element={<StartConfiguration />} />
         </Routes>
       </BrowserRouter>
     </DealerSelection.Provider >
