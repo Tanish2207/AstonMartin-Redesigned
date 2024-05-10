@@ -1,0 +1,156 @@
+#interiorsection{
+  height:18vh;
+}
+
+
+#seatingdiv{
+  /* display:none; */
+  position: relative;
+  top: -59px;
+  background-color: red;
+  height: 18vh;
+}
+
+
+#interiorwindow{
+  display:none;
+}
+
+
+#interiorbar{
+  width: 100vw;
+  height: 8vh;
+  background-color: #292b2d;
+  
+  flex-direction: row;
+  position: relative;
+  top: -8vh;
+  left: 0vw;
+  display: flex;
+}
+
+#interiorbar p{
+  width: 15vw;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #292b2d;
+    border-right: 1px solid #383a3b;
+    /* border-radius: 7px 7px 0px 0px; */
+    padding: 0px 24px 0px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0vw;
+    cursor:pointer;
+}
+
+
+#interiorbar p:hover{
+background-color:#313335;
+}
+
+#seating {
+  height: 18vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  top: 0px;
+  align-items: center;
+  background-color:#3c3f3e;
+
+}
+
+
+#seatimagesplate{
+  display: flex;
+  position: relative;
+  left: 1vw;
+}
+#seatimagesplate img{
+  height:100px;
+  width:150px;
+  margin-right:9px;
+  background-color:white;
+  background: rgb(188,209,210);
+background: radial-gradient(circle, rgba(188,209,210,1) 0%, rgba(186,204,200,1) 17%, rgba(230,247,246,1) 73%);
+}
+
+#seatimagewithinfo{
+  position: relative;
+  width: 150px;
+  height: 100px;
+
+  left: 53vw;
+
+}
+
+#infobuttonforseat{
+  position: relative;
+    top: -34px;
+    left: 116px;
+}
+
+#seatinformationcontent{
+  position: relative;
+    top: 1vw;
+    left: 3vw;
+}
+
+#seatname{
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 700;
+}
+
+#seatimageinformationsection {
+  position: relative;
+
+display:flex;
+align-items:center;
+top: 1px;
+left: 817px;
+width: 337px;
+height: 18vh;
+}
+
+#seatimagewithinfo {
+position: relative;
+width: 150px;
+height: 100px;
+
+left: -1vw;
+}
+
+#seatinformationcontent {
+  position: relative;
+  top: 0vw;
+  left: 1vw;
+}
+
+#currentseatinfoimage{
+  background: rgb(192,201,201);
+background: radial-gradient(circle, rgba(192,201,201,1) 0%, rgba(189,198,196,1) 33%, rgba(200,210,210,1) 74%);
+}
+
+ 
+.seatscaling:hover{
+  transform:scale(1.1);
+  cursor:pointer;
+}
+
+.seathoverhider{
+  overflow: hidden;
+  object-fit: cover;
+  height: 100px;
+  width: 150px;
+  margin-right: 9px;
+}
+
+.seatscaling img {
+  transition: transform 0.5s ease; /* Adjust the duration as needed */
+  cursor:pointer;
+}

@@ -1,0 +1,73 @@
+#paintbar{
+  width: 100vw;
+  height: 0vh;
+  background-color: #414446;
+  display:none;
+}
+
+#paintsection {
+  width: 100vw;
+  height: 8vh;
+  background-color: #414446;
+  /* background-color: #98a6b0; */
+  display: flex;
+  flex-direction:row;
+  position: relative;
+  top: -8vh;
+  left: 12vw;
+  display:flex;
+}
+
+
+#paintsection p{
+  width: 12vw;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  /* background-color: #414446; */
+  background-color:#292b2d;
+  /* border-radius: 7px 7px 0px 0px; */
+  border-right:1px solid #383a3b;
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  left: -1vw;
+  cursor:pointer;
+}
+
+#paintsection p:hover{
+  background-color:#313335;
+}
+#blackandgreys{
+  color:white;
+  border-right:1px solid #383a3b;
+  /* border-bottom:1px solid white; */
+  
+
+}
+   #purplesandblues{
+    color:white;
+    border-right:1px solid grey;
+    
+    
+   }
+   #greens{
+    color:white;
+    border-right:1px solid grey;
+
+   }
+  #reds{
+    color:white;
+    border-right:1px solid grey;
+  }
+ #bronzesandoranges{
+  color:white;
+  border-right:1px solid grey;
+ }
+   #silversandwhites{
+    color:white;
+    border-right:1px solid grey;
+   }
