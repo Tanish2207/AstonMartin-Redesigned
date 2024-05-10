@@ -1,10 +1,10 @@
 import { DealerComp } from './dealerComp';
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios'
-import { DealerSelection } from '../../contexts/dealerSelection';
 
 const apiCall = async () => {
-    const res = await axios.get(`${process.env.BASE_URL}/dealers`)
+    const apiUrl = import.meta.env.VITE_BASE_URL
+    const res = await axios.get(`${apiUrl}/dealers`)
     // console.log(res.data[2].compName)
     return res;
 }

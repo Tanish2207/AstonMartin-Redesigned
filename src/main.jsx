@@ -8,7 +8,6 @@ import { Navbar } from './components/navigation/navbar.jsx';
 import { SelectDealer } from './components/01_selectDealer/selectDealer.jsx';
 import { UserDetails } from './components/03_userDetails.jsx/userDetails.jsx';
 import { Configure } from './components/configure/configure.jsx';
-import { Menu } from './components/navigation/menu.jsx';
 import Customize from './components/customize/customize.jsx';
 import { SelectModel } from './components/02_selectModel/selectModel.jsx';
 import { DealerSelection } from './contexts/dealerSelection.js';
