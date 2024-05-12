@@ -46,3 +46,14 @@
   left: 3px;
   height: auto;
 }
+
+#configurationbutton{
+  height:60px;
+  width:150px;
+    position: absolute;
+    bottom: 0px;
+    color: #00665E;
+    border-radius: 2px;
+    background: white;
+    z-index: 1000;
+}

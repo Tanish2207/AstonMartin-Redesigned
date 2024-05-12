@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './configure.css';
 
-export const Configure = () => {
+export const Configure = (props) => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
@@ -48,8 +48,10 @@ export const Configure = () => {
         >
           <source src="dbs12video.mp4" type="video/mp4" />
         </video>
+
       )}
       <span><img src="videocrossbutton.png" alt="" id="videocross" /></span>
+      <button id="configurationbutton" onClick={()=>{document.querySelector(".startconfiguration").style.display="none";}}>Start Configuration</button>
     </div>
 
   );

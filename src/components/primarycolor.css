@@ -59,7 +59,7 @@ transform:scale(1.5);
   left: 1vw;
 }
 
-#primarycolorinformationsection{
+/* #primarycolorinformationsection{
   height: 18vh;
     width: 500px;
     position: relative;
@@ -67,6 +67,16 @@ transform:scale(1.5);
     align-items: center;
     left: 65vw;
     border-left: 1px solid grey;
+} */
+
+#primarycolorinformationsection {
+  height: 18vh;
+  width: 276px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 65%;
+  border-left: 1px solid grey;
 }
 
 

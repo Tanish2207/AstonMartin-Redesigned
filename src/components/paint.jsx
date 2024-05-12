@@ -14,6 +14,10 @@ const Paint=(props)=>{
   
   const blackandgreys=(props)=>{
     document.querySelector("#blackandgreys").style.borderBottom="white 1px solid";
+document.querySelector("#blackandgreys").style.color="white";
+document.querySelector("#purplesandblues").style.color="#acaead";
+
+
     document.querySelector("#purplesandblues,#greens,#reds,#bronzesandoranges,#silversanswhites").style.borderBottom="";
 //     console.log(typeof props.purpleandbluehide);
 // console.log(typeof props.blackgrey);
@@ -37,6 +41,12 @@ const Paint=(props)=>{
     document.querySelector("#purpleblueplatessection").style.display="block";
     document.querySelector(".colorplatediv").style.display="none";
   
+
+document.querySelector("#purplesandblues").style.color="white";
+document.querySelector("#blackandgreys").style.color="#acaead";
+
+
+
     document.querySelector("#interiorwindow").style.display="none";
      document.querySelector("#purplesandblues").style.borderBottom="white 1px solid";
     document.querySelector("#blackandgreys,#greens,#reds,#bronzesandoranges,#silversanswhites").style.borderBottom="";

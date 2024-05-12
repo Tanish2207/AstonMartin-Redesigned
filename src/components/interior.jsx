@@ -10,8 +10,8 @@ const Interior =(props)=>{
 
   const SportsPlusSeat=(props)=>{
 
-     sportsplusseat=true;
-     performanceseat=false;
+    //  sportsplusseat=true;
+    //  performanceseat=false;
     document.querySelector("#img1").src="sports_plus_seat_frontview.jpg";
     document.querySelector("#img2").src="sports_plus_seat_steeringview.jpg";
     document.querySelector("#img3").src="sports_plus_seat_steeringleftbackview.jpg";
@@ -41,8 +41,8 @@ const Interior =(props)=>{
 
   const PerformanceSeat=()=>{
 
-    performanceseat=true;
-    sportsplusseat=false;
+    // performanceseat=true;
+    // sportsplusseat=false;
     document.querySelector("#img1").src="performance_seat_frontview.jpg";
     document.querySelector("#img2").src="performance_seat_steeringview.jpg";
     document.querySelector("#img3").src="performance_seat_steeringleftbackview.jpg";

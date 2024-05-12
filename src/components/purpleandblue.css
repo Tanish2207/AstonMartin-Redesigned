@@ -97,7 +97,7 @@
   transition: transform 0.3s ease;
 }
 
-#colorplateinformationsection{
+/* #colorplateinformationsection{
   height: 18vh;
     width: 20vw;
     position: relative;
@@ -105,8 +105,20 @@
     top: 0vh;
     left: 55vw;
     border-left: 1px solid grey;
-    /* background-color: red;*/
+    /* background-color: red;//
+} */
+
+#colorplateinformationsection {
+  height: 18vh;
+  width: 20vw;
+  position: relative;
+  display: flex;
+  top: 0vh;
+  left: 56%;
+  border-left: 1px solid grey;
+  /* background-color: red; */
 }
+
 .colorplatecontent{
   position: relative;
   top: 20px;
