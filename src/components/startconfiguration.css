@@ -190,19 +190,7 @@ padding:0px 24px 0px 24px;
       margin-right: 9px;
   }
 
-    /* .colorplates img:hover{
-    
-    object-fit:scale-down;
-    
-    } */
-    
-  /* .startconfiguration .images img{
-    position:absolute;
-    overflow:hidden;
-  object-fit:contain;
-    
-    /* display:none; 
-  } */
+   
 
   .startconfiguration .images img {
     position: absolute;
@@ -219,11 +207,7 @@ padding:0px 24px 0px 24px;
     overflow:hidden;
   }
 
-  /* .startconfiguration .images #img1{
-    /* display:none; //
-    transition:ease all 3s;
-    object-fit:contain;
-  } */
+  
   
 .startconfiguration .images #img1 {
   /* display: none; */
@@ -280,9 +264,7 @@ padding:0px 24px 0px 24px;
     overflow:hidden;
   }
 
-  /* .colorplates .image:active{
-    border-bottom:solid white 2px;
-  } */
+  
  
 #BlackPlateOne{
   /* object-fit:contain; */
@@ -306,10 +288,7 @@ padding:0px 24px 0px 24px;
 .image:hover .imagescale {
   transform: scale(1.5); /* Scale up the image on hover */
 }
-  /* .selectionsection{
-    background-color:#414446;
-    z-index: 777;
-  } */
+  
 
   .selectionsection {
     background-color: #414446;
@@ -318,15 +297,7 @@ padding:0px 24px 0px 24px;
     top: -13%;
 }
 
-  /* .colorplateinformation {
-    width: 500px;
-    height: 79%;
-    display: flex;
-    position: relative;
-    padding: 0px 20px;
-    right: -62vw;
-    border-left: solid grey 1px;
-} */
+
 
 .colorplateinformation {
   height: 18vh;
@@ -363,27 +334,6 @@ padding:0px 24px 0px 24px;
 }
 
 
-
-  /* #colorplateverticalstrip{
-    width:1px;
-    height:30px;
-    position:relative;
-    left:70px;
-    background-color:#07f4f4;
-  } */
-
-
-  /* .colorinfowindow {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    top: -11vh;
-    background-color: #00000070;
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(12px);
-   display:none;
-    z-index: 1000;
-} */
 
 .colorinfowindow {
   width: 100vw;
@@ -447,12 +397,7 @@ padding:0px 24px 0px 24px;
   top: 0vh;
 }
 
-/* #informationcrossbutton {
-  width: 50px;
-  position: relative;
-  top: -10vh;
-  left: 93vw;
-} */
+
 
 #informationcrossbutton {
   width: 50px;
