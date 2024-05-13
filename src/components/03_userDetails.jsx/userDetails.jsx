@@ -29,8 +29,8 @@ export const UserDetails = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
-        const response = await axios.post("http://localhost:3000/users", formData);
+        const apiUrl = import.meta.env.VITE_BASE_URL
+        const response = await axios.post(`${apiUrl}/users`, formData);
 
         if (response.status === 200) {
             // Success!

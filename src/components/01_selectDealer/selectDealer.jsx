@@ -1,10 +1,10 @@
 import { DealerComp } from './dealerComp';
-import { useContext, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios'
-import { DealerSelection } from '../../contexts/dealerSelection';
 
 const apiCall = async () => {
-    const res = await axios.get(`http://localhost:3000/dealers`)
+    const apiUrl = import.meta.env.VITE_BASE_URL
+    const res = await axios.get(`${apiUrl}/dealers`)
     // console.log(res.data[2].compName)
     return res;
 }
@@ -24,7 +24,7 @@ export const SelectDealer = () => {
 
 
     return (
-        <div className='h-full w-full pt-20 text-white' style={{ backgroundColor: "#021926" }}>
+        <div className='h-full w-full pt-32 text-white' style={{ backgroundColor: "#171818" }}>
             {/* {console.log(data)} */}
             <h2 className='font-bold text-xl mb-10 px-40'>1. Select nearest Dealer</h2>
             {data.map((dealer, id) => {

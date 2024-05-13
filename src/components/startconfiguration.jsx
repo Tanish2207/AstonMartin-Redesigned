@@ -1,18 +1,11 @@
-
-
-
-
-
 import './startconfiguration.css';
 import Paint from './paint';
 import './paint.css';
-// import Purpleblue from './purpleandbluesection';
+
 import Purpleblue from './purpleandblue';
 
 import Interior from './interior';
 import PrimaryColor from './primarycolor';
-
-
 
 const StartConfiguration = () => {
 

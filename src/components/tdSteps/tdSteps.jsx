@@ -6,7 +6,7 @@ export const TestDriveSteps = () => {
   const val = useContext(DealerSelection)
   console.log(val);
   return (
-    <div style={{ backgroundColor: "#021926" }}>
+    <div className='pt-20' style={{ background: "linear-gradient(180deg, #3D3E41 0%, #131313 100%)" }}>
       <div className="w-full" >
         <h2 className='TD-heading text-xl font-bold py-3'>Arrange a Test Drive</h2>
       </div>

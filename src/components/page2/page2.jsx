@@ -3,8 +3,6 @@ import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import './page2.css'
 
-
-
 export const Page2 = () => {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -14,37 +12,17 @@ export const Page2 = () => {
   const [prog2, setProg2] = useState(0);
   const [prog3, setProg3] = useState(0);
 
-
-  // useEffect(() => {
-  //   const el = prog1Ref.current;
-  //   let interval1;
-  //   gsap.to(el, {
-  //     scrollTrigger: {
-  //       trigger: progCont,
-  //       onEnter: () => {
-  //         interval1 = setInterval(() => {
-  //           if(prog1>= 656)
-  //             clearInterval(interval1);
-  //           else
-  //             setProg1(prog1+4);
-  //         }, 4)
-  //         return () => clearInterval(interval1);
-  //       },
-  //       // width: 168,
-  //       duration: 3,
-  //     }
-  //   })
-  // }, [prog1])
-
   useEffect(() => {
     const interval1 = setInterval(() => {
+      setTimeout(() => {
+      }, 2000);
       if (prog1 >= 656) {
         clearInterval(interval1);
       }
       else {
         setProg1(prog1 + 2);
       }
-    }, 4);
+    }, 5);
     return () => clearInterval(interval1)
   }, [prog1])
 
@@ -56,7 +34,7 @@ export const Page2 = () => {
       else {
         setProg2(prog2 + 2);
       }
-    }, 5);
+    }, 6);
     return () => clearInterval(interval2)
   }, [prog2])
 
@@ -71,7 +49,7 @@ export const Page2 = () => {
     }, 100);
     return () => clearInterval(interval3)
   }, [prog3])
-  
+
   return (
 
     <div className="relative landing2Cont h-screen w-screen grid grid-cols-12 grid-rows-8 px-14 first" style={{ fontFamily: "var(--Nunito)" }}>
