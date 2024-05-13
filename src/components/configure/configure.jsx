@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './configure.css';
 import { Link } from 'react-router-dom';
 
-export const Configure = () => {
+export const Configure = (props) => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
@@ -49,8 +49,10 @@ export const Configure = () => {
         >
           <source src="dbs12video.mp4" type="video/mp4" />
         </video>
+
       )}
       <span><img src="videocrossbutton.png" alt="" id="videocross" /></span>
+
       <Link to="/startconfig"><button className='absolute bottom-16 text-white reqTD-btn px-4 py-2 rounded-sm font-semibold text-xl' style={{left: "45%"}}>Customize</button></Link>
     </div>
 

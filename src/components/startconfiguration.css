@@ -26,8 +26,14 @@ top:0px;}
   height:20px;
 }
 
-.imagesslider{
+/* .imagesslider{
   display:flex;
+} */
+
+.imagesslider {
+  display: flex;
+  position: relative;
+  top: -17%;
 }
 
 .imageslider{
@@ -64,7 +70,7 @@ padding:0px 24px 0px 24px;
       height: 100%;
       font-size: 16px;
       font-weight: 700;
-      background-color: #414446;
+      background-color: #3d403f;
       border-radius: 7px 7px 0px 0px;
       padding: 0px 24px 0px 24px;
       display:flex;
@@ -72,7 +78,10 @@ padding:0px 24px 0px 24px;
       align-items:center;
       position: relative;
       top: 7px;
-      left: 1vw;}
+      left: 1vw;
+    cursor:pointer;
+    color:#acaead;
+    }
 
       /* .features p:active{
         color:red;
@@ -81,23 +90,23 @@ padding:0px 24px 0px 24px;
       .features {
         width: 100vw;
         height: 8vh;
-        background-color: #5b5d60;
+        background-color: #3e4140;
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 99100;
     }
     #interior{
-      background-color: #5b5d60;
+      background-color: #3d403f;
     }
     #interioroptions{
-      background-color: #5b5d60;
+      background-color: #3d403f;
     }
     #personalisation{
-      background-color: #5b5d60;
+      background-color: #3d403f;
     }
     #accessories{
-      background-color: #5b5d60;
+      background-color: #3d403f;
     }
 
   .modifications p{
@@ -105,15 +114,19 @@ padding:0px 24px 0px 24px;
         height: 100%;
         font-size: 16px;
         font-weight: 700;
-        background-color: #414446;
+        background-color: #292b2d;
         /* border-radius: 7px 7px 0px 0px; */
+        border-right:1px solid #383a3b;
         padding: 0px 24px 0px 24px;
         display:flex;
         justify-content:center;
         align-items:center;
         position: relative;
         top: 0px;
-        left: 0vw;}
+        left: 0vw;
+      cursor:pointer;
+      color:white;
+      }
     
     .modifications{
     width: 100vw;
@@ -126,46 +139,49 @@ padding:0px 24px 0px 24px;
     }
 
     #paint{
-      border-right: 1px solid grey;
+      border-right: 1px solid #383a3b;
     }
     
             #exteriorpackages{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
             #liveries{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
             #grillefinish{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
             #roof{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
             #wheels{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
             #taillights{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
             #glazing{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
             #doorhandles{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
             #accesories{
-              border-right: 1px solid grey;
+              border-right: 1px solid #383a3b;
             }
 
     .colorplates {
       height: 18vh;
       display: flex;
       align-items: center;
-      /* display:none; */
+     background-color:#3c3f3e;
       padding: 0px 20px;
       z-index: 888;
   }
-  
+  .colorplatediv{
+    /* display:none; */
+    background-color:#3c3f3e;
+  }
   .colorplates img {
       height: 100px;
       width: 50px;
@@ -174,19 +190,7 @@ padding:0px 24px 0px 24px;
       margin-right: 9px;
   }
 
-    /* .colorplates img:hover{
-    
-    object-fit:scale-down;
-    
-    } */
-    
-  /* .startconfiguration .images img{
-    position:absolute;
-    overflow:hidden;
-  object-fit:contain;
-    
-    /* display:none; 
-  } */
+   
 
   .startconfiguration .images img {
     position: absolute;
@@ -203,35 +207,64 @@ padding:0px 24px 0px 24px;
     overflow:hidden;
   }
 
-  .startconfiguration .images #img1{
-    /* display:none; */
-    transition:ease all 3s;
-    object-fit:contain;
-  }
+  
+  
+.startconfiguration .images #img1 {
+  /* display: none; */
+  transition: ease all 3s;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: -32%;
+}
+
 
   #img1{
-    object-fit:contain;
+    /* object-fit:contain;
+     */
+      /* display: none; */
+  transition: ease all 3s;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: -32%;
   }
 
   .startconfiguration .images #img2{
-    display:none;
+    /* display:none; */
+     /* display: none; */
+  transition: ease all 3s;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: -32%;
   }
 
   .startconfiguration .images #img3{
-    display:none;
+    /* display:none; */
+     /* display: none; */
+  transition: ease all 3s;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: -32%;
   }
 
   .startconfiguration .images #img4{
-    display:none;
+    /* display:none; */
+     /* display: none; */
+  transition: ease all 3s;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  top: -32%;
   }
 
   .startconfiguration .images{
     overflow:hidden;
   }
 
-  /* .colorplates .image:active{
-    border-bottom:solid white 2px;
-  } */
+  
  
 #BlackPlateOne{
   /* object-fit:contain; */
@@ -255,22 +288,27 @@ padding:0px 24px 0px 24px;
 .image:hover .imagescale {
   transform: scale(1.5); /* Scale up the image on hover */
 }
-  .selectionsection{
-    background-color:#414446;
-    z-index: 777;
-  }
+  
 
-  .colorplateinformation {
-    width: 500px;
-    height: 79%;
-    display: flex;
+  .selectionsection {
+    background-color: #414446;
+    z-index: 777;
     position: relative;
-    padding: 0px 20px;
-    right: -62vw;
-    border-left: solid grey 1px;
+    top: -13%;
 }
 
 
+
+.colorplateinformation {
+  height: 18vh;
+  width: 20vw;
+  position: relative;
+  display: flex;
+  top: 0vh;
+  left: 64%;
+  border-left: 1px solid grey;
+  margin-right: 9px;
+}
 
 #colortype {
   color: grey;
@@ -297,25 +335,16 @@ padding:0px 24px 0px 24px;
 
 
 
-  /* #colorplateverticalstrip{
-    width:1px;
-    height:30px;
-    position:relative;
-    left:70px;
-    background-color:#07f4f4;
-  } */
-
-
-  .colorinfowindow {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    top: -11vh;
-    background-color: #00000070;
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(12px);
-   display:none;
-    z-index: 1000;
+.colorinfowindow {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0%;
+  background-color: #00000070;
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(12px);
+  display: none;
+  z-index: 1000;
 }
 
 #colorcard {
@@ -368,11 +397,13 @@ padding:0px 24px 0px 24px;
   top: 0vh;
 }
 
+
+
 #informationcrossbutton {
   width: 50px;
   position: relative;
-  top: -10vh;
-  left: 93vw;
+  /* top: -10vh; */
+  left: 93%;
 }
 
 #videocrossbuttonhover{}
@@ -383,4 +414,15 @@ padding:0px 24px 0px 24px;
   height:40px;
   border-radius:50%;
   
+}
+
+#colorplateimage{
+  position: relative;
+  top: 16px;
+}
+
+#colorplatecontent{
+  position: relative;
+  top: 27px;
+  left: 6px;
 }
