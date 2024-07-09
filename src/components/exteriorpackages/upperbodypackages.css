@@ -1,0 +1,85 @@
+#upperpackagediv{
+  display:none;
+}
+
+
+#upperpackage {
+  height: 18vh;
+  width: 100vw;
+  background: #3e4140;
+  position: absolute;
+  top: 79vh;
+  display: flex;
+  align-items: center;
+}
+
+#upperpackageimagesplate img{
+  width:10em;
+  /* height:1em; */
+}
+
+#upperpackageimagesplate{
+  display:flex;
+  align-items:center;
+}
+
+.upperpackagehoverhider{
+  overflow:hidden;
+  margin-left:1em;
+}
+
+#upperpackageimagewithinfo {
+  display: flex;
+  flex-direction: column;
+  width: 14em;
+  height: 96%;
+}
+#upperpackageplatesdiv{
+  /* background: yellow; */
+  width: 66em;
+}
+#upperpackageimageinformationsection {
+  position: relative;
+  right: -8vh;
+  /* background: aqua; */
+  border-left: 1px solid grey;
+  width: 25vw;
+  height: 8em;
+  align-items: center;
+  display: flex;
+  padding: 0% 1% /* position: relative; right: -102vh; background: aqua; width: 24em; display: flex; */;
+}
+
+#infobuttonforupperbody {
+  width: 2em;
+    height: 2em;
+    position: relative;
+    /* top: 70%; */
+    right: -80%;
+    top: -20%;
+}
+.upperbodyscaling:hover{
+  transform: scale(1.2);
+  transition: transform 1.5s ease;
+  
+}
+
+.upperbodyscaling:hover  img{
+}
+
+.upperpackageimagesplate img{
+  
+}
+#upperpackagename{
+  font-weight: 600;
+  color:white;
+}
+
+#upperpackageinformationcontent{
+  margin: 1em;
+    width: 12em;
+}
+#currentupperbodyinfoimage{
+  position: relative;
+  top: 7%;
+}
