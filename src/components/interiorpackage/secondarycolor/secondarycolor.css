@@ -1,0 +1,165 @@
+/* #primarycolorwindow{
+  display:none;
+} */
+
+#secondarycolorwindow {
+  display: none;
+  /* background: cyan; */
+  position: relative;
+  top: -75px;
+}
+/* #primarycolorsection{
+  height: 18vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  top: -59px;
+  /* top:-72px; /
+  align-items: center;
+  background-color:#3c3f3e;
+} */
+
+
+#secondarycolorsection {
+  height: 18vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  top: 10vh;
+  /* top: -72px; */
+  align-items: center;
+  background-color: #3c3f3e;
+}
+
+#secondarycolorimageplate{
+  display: flex;
+  position: relative;
+  left: 1vw;
+  height: 100px;
+  width: 50px;
+}
+
+.secondaryimagescaler img{
+  height:100px;
+  width:50px;
+  margin-right:9px;
+  transition:transform 0.3s ease;
+  cursor:pointer;
+}
+
+.secondaryimagescaler{
+  height:100px;
+  width:50px;
+  margin-right:9px;
+  overflow:hidden;
+  transition:transform 0.3s ease;
+
+}
+
+.secondaryimagescaler:hover img{
+transform:scale(1.5);
+}
+
+#secondarycolorcontent{
+  /* border-left:1px solid grey; */
+  height:18vh;
+}
+
+#secondarycolorplates{
+  display: flex;
+  position: relative;
+  left: 1vw;
+}
+
+/* #primarycolorinformationsection{
+  height: 18vh;
+    width: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 65vw;
+    border-left: 1px solid grey;
+} */
+
+/* #secondarycolorinformationsection {
+  height: 18vh;
+  width: 276px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 65%;
+  border-left: 1px solid grey;
+} */
+
+
+#secondarycolorinformationsection {
+  height: 18vh;
+  width: 18em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 60%;
+  border-left: 1px solid grey;
+}
+
+
+/* #secondarycolortype{
+
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+} */
+
+/* #primarycolorname{
+
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 700;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+} */
+#secondarycolortype {
+  color: grey;
+  font-size: 1em;
+  font-weight: 600;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+}
+
+/* #secondarycolorname {
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 700;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+  width: 159px;
+} */
+
+#secondarycolorname {
+  color: white;
+  font-size: 1em;
+  margin-top: 14px;
+  font-weight: 700;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+  width: 11em;
+}
+#secondaryplateone{
+  
+}
+#secondaryplatetwo{
+  
+}#secondaryplatethree{
+  
+}#secondaryplatefour{
+  
+}
