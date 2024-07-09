@@ -1,0 +1,166 @@
+/* #primarycolorwindow{
+  display:none;
+} */
+
+#primarycolorwindow {
+  display: none;
+  /* background: cyan; */
+  position: relative;
+  top: -75px;
+}
+/* #primarycolorsection{
+  height: 18vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  top: -59px;
+  /* top:-72px; /
+  align-items: center;
+  background-color:#3c3f3e;
+} */
+
+
+#primarycolorsection {
+  height: 18vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+  top: 10vh;
+  /* top: -72px; */
+  align-items: center;
+  background-color: #3c3f3e;
+}
+
+#primarycolorimageplate{
+  display: flex;
+  position: relative;
+  left: 1vw;
+  height: 100px;
+  width: 50px;
+}
+
+.imagescaler img{
+  height:100px;
+  width:50px;
+  margin-right:9px;
+  transition:transform 0.3s ease;
+  cursor:pointer;
+}
+
+.imagescaler{
+  height:100px;
+  width:50px;
+  margin-right:9px;
+  overflow:hidden;
+  transition:transform 0.3s ease;
+
+}
+
+.imagescaler:hover img{
+transform:scale(1.5);
+}
+
+#primarycolorcontent{
+  /* border-left:1px solid grey; */
+  height:18vh;
+}
+
+#primarycolorplates{
+  display: flex;
+  position: relative;
+  left: 1vw;
+}
+
+/* #primarycolorinformationsection{
+  height: 18vh;
+    width: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 65vw;
+    border-left: 1px solid grey;
+} */
+
+/* #primarycolorinformationsection {
+  height: 18vh;
+  width: 276px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 65%;
+  border-left: 1px solid grey;
+} */
+
+#primarycolorinformationsection {
+  height: 18vh;
+  width: 17em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 58%;
+  border-left: 1px solid grey;
+}
+
+
+/* #primarycolortype{
+
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+} */
+
+/* #primarycolorname{
+
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 700;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+} */
+#primarycolortype {
+  color: grey;
+  font-size: 1em;
+  font-weight: 600;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+}
+
+/* #primarycolorname {
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
+  font-weight: 700;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+  width: 159px;
+} */
+
+
+#primarycolorname {
+  color: white;
+  font-size: 104%;
+  margin-top: 6%;
+  font-weight: 700;
+  position: relative;
+  left: 3vw;
+  top: 2vw;
+  width: 9em;
+}
+
+#primaryplateone{
+  
+}
+#primaryplatetwo{
+  
+}#primaryplatethree{
+  
+}#primaryplatefour{
+  
+}
