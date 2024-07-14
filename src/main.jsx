@@ -14,6 +14,7 @@ import { DealerSelection } from './contexts/dealerSelection.js';
 import { Preloader } from './components/preloader/preloader.jsx';
 import { Explore3D } from './components/explore3D/explore3D.jsx';
 import StartConfiguration from './components/startconfiguration.jsx';
+import SelectDealer_Loader from './components/01_selectDealer/selectDealer_loader.jsx';
 
 
 
