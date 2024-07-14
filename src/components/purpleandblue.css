@@ -50,7 +50,7 @@
 }
 
 
-.colorplateinformation {
+/* .purplebluecolorplateinformation {
   height: 18vh;
   width: 20vw;
   position: relative;
@@ -61,7 +61,7 @@
   /* background-color: red;
   /* background-color: red;
   /* background-color: red;
-}
+} */
 
 
 .purpleblueplates img {
@@ -97,18 +97,8 @@
   transition: transform 0.3s ease;
 }
 
-/* #colorplateinformationsection{
-  height: 18vh;
-    width: 20vw;
-    position: relative;
-    display: flex;
-    top: 0vh;
-    left: 55vw;
-    border-left: 1px solid grey;
-    /* background-color: red;//
-} */
 
-#colorplateinformationsection {
+#purplebluecolorplateinformationsection {
   height: 18vh;
   width: 20vw;
   position: relative;
@@ -119,11 +109,11 @@
   /* background-color: red; */
 }
 
-.colorplatecontent{
+/* .colorplatecontent{
   position: relative;
   top: 20px;
   left:2px;
-}
+} */
 
 #purpleplate{
   position: relative;
@@ -162,5 +152,68 @@
 
 
 #purpleblueplatessection{
+  display:none;
+}
+
+#colorplateinfobuttonseychellesblue{
+  position: relative;
+  top: -34px;
+  left: 8px;
+  width: 33px;
+  height: auto;
+  display:none;
+}
+
+#colorplateinfobuttonionblue{
+  position: relative;
+  top: -34px;
+  left: 8px;
+  width: 33px;
+  height: auto;
+  display:none;
+}
+
+#colorplateinfobuttonplasmablue{
+  position: relative;
+  top: -34px;
+  left: 8px;
+  width: 33px;
+  height: auto;
+  display:none;
+}
+
+#colorplateinfobuttonelwoodblue{
+  position: relative;
+  top: -34px;
+  left: 8px;
+  width: 33px;
+  height: auto;
+  display:none;
+}
+
+#colorplateinfobutton{
+  position: relative;
+  top: -34px;
+  left: 8px;
+  width: 33px;
+  height: auto;
+  display:none;
+}
+
+#colorplateinfobuttonseychellesblue{
+  position: relative;
+  top: -34px;
+  left: 8px;
+  width: 33px;
+  height: auto;
+  display:none;
+}
+
+#colorplateinfobuttonseychellesblue{
+  position: relative;
+  top: -34px;
+  left: 8px;
+  width: 33px;
+  height: auto;
   display:none;
 }

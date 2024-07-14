@@ -8,9 +8,15 @@
   align-items: center;
 }
 
-#lowerpackageimagesplate img{
+/* #lowerpackageimagesplate img{
+  /* width:10em; */
+  /* height:1em; /
+} */
+
+#lowerbodycolorone,#lowerbodycolortwo,#lowerbodycolorthree{
   width:10em;
-  /* height:1em; */
+  position:relative;
+  /* top:1em; */
 }
 
 #lowerpackageimagesplate{
@@ -53,6 +59,41 @@
     right: -80%;
     top: -20%;
 }
+
+#infobuttonforbodycolor,#infobuttonforglossblack,#infobuttonforcarbonfibre{
+ 
+  position: relative;
+  /* top: 70%; */
+  right: -80%;
+  top: -25%;
+  width:28px;
+  height:28px;
+  /* display:none; */
+}
+
+#infobuttonforbodycolor,#infobuttonforglossblack,#infobuttonforcarbonfibre:hover{
+  top:1em;
+}
+
+#infobuttonforbodycolor{
+  width:28px;
+  height:28px;
+  top:-1em;
+  display:block;
+
+}
+#infobuttonforglossblack{
+  top:-1em;
+  display:block;
+
+}
+#infobuttonforcarbonfibre{
+  top:-1em;
+  display:block;
+
+}
+
+
 .lowerbodyscaling:hover{
   transform: scale(1.1);
 transition: transform 1.5s ease;

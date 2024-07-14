@@ -1,0 +1,97 @@
+#wheelpackagediv{
+  display:none
+}
+
+
+#wheelpackage {
+  height: 18vh;
+  width: 100vw;
+  background: #3e4140;
+  position: absolute;
+  top: 79vh;
+  display: flex;
+  align-items: center;
+}
+
+#wheelpackageimagesplate img{
+  width:10em;
+  /* height:1em; */
+}
+
+#wheelpackageimagesplate{
+  display:flex;
+  align-items:center;
+}
+
+.wheelpackagehoverhider{
+  overflow:hidden;
+  margin-left:1em;
+}
+
+#wheelpackageimagewithinfo {
+  display: flex;
+  flex-direction: column;
+  width: 14em;
+  height: 96%;
+}
+#wheelpackageplatesdiv{
+  /* background: yellow; */
+  width: 66em;
+}
+#wheelpackageimageinformationsection {
+  position: relative;
+  right: -8vh;
+  /* background: aqua; */
+  border-left: 1px solid grey;
+  width: 25vw;
+  height: 7em;
+  align-items: center;
+  display: flex;
+  padding: 0% 1% /* position: relative; right: -102vh; background: aqua; width: 24em; display: flex; */;
+}
+
+#infobuttonforwheelbody {
+  width: 2em;
+  height: 2em;
+  position: relative;
+  /* top: 70%; */
+  right: -80%;
+  top: -31%;
+}
+.wheelbodyscaling:hover{
+  transform: scale(1.1);
+transition: transform 1.5s ease;
+}
+
+.wheelbodyscaling:hover  img{
+}
+
+.wheelpackageimagesplate img{
+  
+}
+#wheelpackagename{
+  font-weight: 600;
+  color:white;
+}
+
+#wheelpackageinformationcontent{
+  margin: 1em;
+    width: 12em;
+}
+#currentwheelbodyinfoimage {
+  position: relative;
+  top: 0%;
+  background:radial-gradient(circle, rgba(188,209,210,1) 0%, rgba(186,204,200,1) 17%, rgba(230,247,246,1) 73%)
+}
+
+#wheelbodycolorone{
+  border-bottom:2px solid white;
+  background:radial-gradient(circle, rgba(188,209,210,1) 0%, rgba(186,204,200,1) 17%, rgba(230,247,246,1) 73%)
+
+}
+
+#colorimage img{
+  background:dadada;
+}
+
+

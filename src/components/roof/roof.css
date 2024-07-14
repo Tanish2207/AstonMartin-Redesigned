@@ -1,0 +1,90 @@
+#roofpackagediv{
+  display:none
+}
+
+
+#roofpackage {
+  height: 18vh;
+  width: 100vw;
+  background: #3e4140;
+  position: absolute;
+  top: 79vh;
+  display: flex;
+  align-items: center;
+}
+
+#roofpackageimagesplate img{
+  width:10em;
+  /* height:1em; */
+}
+
+#roofpackageimagesplate{
+  display:flex;
+  align-items:center;
+}
+
+.roofpackagehoverhider{
+  overflow:hidden;
+  margin-left:1em;
+}
+
+#roofpackageimagewithinfo {
+  display: flex;
+  flex-direction: column;
+  width: 14em;
+  height: 96%;
+}
+#roofpackageplatesdiv{
+  /* background: yellow; */
+  width: 66em;
+}
+#roofpackageimageinformationsection {
+  position: relative;
+  right: -8vh;
+  /* background: aqua; */
+  border-left: 1px solid grey;
+  width: 25vw;
+  height: 7em;
+  align-items: center;
+  display: flex;
+  padding: 0% 1% /* position: relative; right: -102vh; background: aqua; width: 24em; display: flex; */;
+}
+
+#infobuttonforroofbody {
+  width: 2em;
+  height: 2em;
+  position: relative;
+  /* top: 70%; */
+  right: -80%;
+  top: -31%;
+}
+.roofbodyscaling:hover{
+  transform: scale(1.1);
+transition: transform 1.5s ease;
+}
+
+.roofbodyscaling:hover  img{
+}
+
+.roofpackageimagesplate img{
+  
+}
+#roofpackagename{
+  font-weight: 600;
+  color:white;
+}
+
+#roofpackageinformationcontent{
+  margin: 1em;
+    width: 12em;
+}
+#currentroofbodyinfoimage {
+  position: relative;
+  top: 0%;
+}
+
+
+
+
+
+
