@@ -1553,7 +1553,7 @@ const StartConfiguration = () => {
     document.querySelector("#colorinformation").style.top = "-33em";
     document.querySelector("#colorinformation").style.width = "29em";
 
-    document.querySelector("#grillefinish").style.borderBottom="2px solid white";
+    // document.querySelector("#grillefinish").style.borderBottom="2px solid white";
 
     document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/q_auto/v1720879503/q_buckinghamshire_green_bclbp_bcubp_bright_information_plate_aigbvy.jpg";
     document.querySelector("#purpleblueplatessection").style.display = "none";
