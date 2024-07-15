@@ -2660,7 +2660,7 @@ const [prevseat,setprevseat]=useState("sportsplus")
               </div>
               <div id="seatimageinformationsection">
                 <div id="seatimagewithinfo">
-                  <img src="sports_plus_seat_plate.png" alt="" id="currentseatinfoimage" />
+                  <img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720776637/sports_plus_seat_plate_shpho2.png" alt="" id="currentseatinfoimage" />
                   <img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720879541/infobutton_admoia.png" alt="" id="infobuttonforseat" onClick={showinfofunction} />
                 </div>
                 <div id="seatinformationcontent">
