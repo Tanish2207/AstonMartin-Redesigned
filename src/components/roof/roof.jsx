@@ -6,14 +6,14 @@ const Roof=({selectedSeat, selectedprimarycolor, selectedsecondarycolor,showinfo
   
     if(exteriorcolor==='qquantumsilver')
     {
-      document.querySelector("#roofbodycolorone").src="q_quantum_silver_bclbp_bcubp_bright_s_p_metallic_black_s_oxford_tan_roof_body_colored_plate.jpg";
+      document.querySelector("#roofbodycolorone").src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677490/q_quantum_silver_bclbp_bcubp_bright_s_p_metallic_black_s_oxford_tan_roof_body_colored_plate_nhxrxt.jpg";
       // document.querySelector("#roofbodycolortwo").src="q_quantum_silver_bclbp_bcubp_bright_s_p_metallic_black_s_oxford_tan_roof_gloss_black_plate.jpg";
       // document.querySelector("#roofbodycolorthree").src="q_quantum_silver_bclbp_bcubp_bright_s_p_metallic_black_s_oxford_tan_roof_gloss_carbon_fibre_plate.jpg";
   
       // document.querySelector("#roofbodycolorfour").src="q_quantum_silver_bclbp_bcubp_bright_s_p_metallic_black_s_oxford_tan_roof_panoramic_glass_roof_plate.jpg";
 
 
-      document.querySelector("#currentroofbodyinfoimage").src="q_quantum_silver_bclbp_bcubp_bright_s_p_metallic_black_s_oxford_tan_roof_body_colored_plate.jpg";
+      document.querySelector("#currentroofbodyinfoimage").src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677490/q_quantum_silver_bclbp_bcubp_bright_s_p_metallic_black_s_oxford_tan_roof_body_colored_plate_nhxrxt.jpg";
         document.querySelector("#roofpackagename").innerHTML="Gloss Black";
 
         document.querySelector("#colorcardcolorname").innerHTML="Gloss Black";
@@ -489,7 +489,7 @@ const Roof=({selectedSeat, selectedprimarycolor, selectedsecondarycolor,showinfo
           <div id="roofpackageimagesplate">
             <div className="roofpackagehoverhider" id="roofcolorborderone"
             //  onClick={BodyColouredRoof}
-             ><img src="q_buckinghamshire_green_bclbp_bcubp_bright_p_p_metallic_black_s_oxford_tan_roof_gloss_black_plate.jpg" className="roofbodyscaling" alt="" id="roofbodycolorone"  /></div>
+             ><img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720879502/q_buckinghamshire_green_bclbp_bcubp_bright_p_p_metallic_black_s_oxford_tan_roof_gloss_black_plate_blkxhi.jpg" className="roofbodyscaling" alt="" id="roofbodycolorone"  /></div>
 
             {/* <div className="roofpackagehoverhider" id="roofcolorbordertwo" onClick={GlossBlackRoof}><img src="q_buckinghamshire_green_bclbp_bcubp_bright_p_p_metallic_black_s_oxford_tan_roof_gloss_black_plate.jpg" alt="" className="roofbodyscaling" id="roofbodycolortwo"  /></div>
 
@@ -505,8 +505,8 @@ const Roof=({selectedSeat, selectedprimarycolor, selectedsecondarycolor,showinfo
         </div>
         <div id="roofpackageimageinformationsection">
           <div id="roofpackageimagewithinfo">
-            <img src="q_buckinghamshire_green_bclbp_bcubp_bright_plate.jpg" alt="" id="currentroofbodyinfoimage" />
-            <img src="infobutton.png" alt="" id="infobuttonforroofbody"
+            <img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720879495/q_buckinghamshire_green_bclbp_bcubp_bright_plate_p023vr.jpg" alt="" id="currentroofbodyinfoimage" />
+            <img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720879541/infobutton_admoia.png" alt="" id="infobuttonforroofbody"
              onClick={showinfofunction} 
              />
           </div>

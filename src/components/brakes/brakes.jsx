@@ -24,7 +24,7 @@ const Brakes=({showinfofunction})=>{
           <div id="brakepackageimageinformationsection">
             <div id="brakepackageimagewithinfo">
               <img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720869370/carbon_ceramic_brakes_plate_f58dlz.png" alt="" id="currentbrakebodyinfoimage" />
-              <img src="infobutton.png" alt="" id="infobuttonforbrakebody"
+              <img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720879541/infobutton_admoia.png" alt="" id="infobuttonforbrakebody"
                onClick={showinfofunction} 
                />
             </div>

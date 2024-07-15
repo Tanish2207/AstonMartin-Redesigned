@@ -123,7 +123,7 @@ const StartConfiguration = () => {
     document.querySelector("#BlackPlateOne").style.border = "none";
     document.querySelector("#BlackPlateThree").style.border = "none";
 
-    document.querySelector("#colorplateimage img").src = "q_casino_royale_plate.jpg";
+    document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677714/q_casino_royale_plate_la1z0t.jpg";
 
 
     document.querySelector("#colortype").innerHTML = "Icon";
@@ -203,29 +203,29 @@ const StartConfiguration = () => {
     document.querySelector("#BlackPlateTwo").style.border = "none";
     document.querySelector("#BlackPlateThree").style.border = "none";
 
-    document.querySelector("#colorplateimage img").src = "q_satin_xenon_grey_plate.jpg";
+    document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677741/q_satin_xenon_grey_plate_zyiqk5.jpg";
     document.querySelector("#colortype").innerHTML = "Satin";
     document.querySelector("#colorname").innerHTML = "Q Satin Xenon Grey";
 
     //make the infobutton visible to view info about the color;
     document.querySelector("#colorplateinfobutton").style.display = "block";
 
-    document.querySelector("#colorimage img").src = "q_satin_xenon_grey_plate_information.jpg";
+    document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720697719/q_satin_xenon_grey_plate_information_gi0sip.jpg";
     document.querySelector("#colorcardcolorname").innerHTML = "Q Satin Xenon Grey";
     document.querySelector("#colorcardcolorinformation").innerHTML = "Xenon Grey is a striking and visually arresting dark neutral. A statement colour, it has a unique and mineral-like quality that creates a sparkle seldom seen in any grey paint. It is particularly unique with a satin finish. Inspired by the element Xenon, the colour employs multiple semi-coarse and super-coarse coated aluminium's that appear to almost glow blue at certain angles of view. This technology emphasises the crafted contours of an Aston Martin's sculpted body sides while serving as a dramatic design showpiece in its own right.";
 
 
     const image1 = document.getElementById("img1");
-    image1.src = "q_satin_xenon_grey.jpg";
+    image1.src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720697701/q_satin_xenon_grey_hg7jvx.jpg";
 
     const image2 = document.getElementById("img2");
-    image2.src = "q_satin_xenon_grey_defaultalloy.jpg";
+    image2.src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720697705/q_satin_xenon_grey_defaultalloy_zuad4n.jpg";
 
     const image3 = document.getElementById("img3");
-    image3.src = "q_satin_xenon_grey_leftsidebacklowview.jpg";
+    image3.src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720697712/q_satin_xenon_grey_leftsidebacklowview_jjmdze.jpg";
 
     const image4 = document.getElementById("img4");
-    image4.src = "q_satin_xenon_grey_sideview.jpg";
+    image4.src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720697726/q_satin_xenon_grey_sideview_uao7zq.jpg";
   }
 
 
@@ -242,7 +242,7 @@ const StartConfiguration = () => {
     document.querySelector("#BlackPlateTwo").style.border = "none";
     document.querySelector("#BlackPlateThree").style.border = "none";
 
-    document.querySelector("#colorplateimage img").src = "q_quantum_silver_plate.jpg";
+    document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677353/q_quantum_silver_plate_j5nl1q.jpg";
     document.querySelector("#colortype").innerHTML = "Icon";
     document.querySelector("#colorname").innerHTML = "Q Quantum Silver";
 
@@ -694,7 +694,7 @@ const StartConfiguration = () => {
     document.querySelector("#colorinformation").style.left = "50em";
 
 
-    document.querySelector("#colorimage img").src = "q_quantum_silver_body_color_lower_body_package_plate_information.jpg";
+    document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677470/q_quantum_silver_body_color_lower_body_package_plate_information_qwxm20.jpg";
     document.querySelector("#grillefinishpackagediv").style.display = "none";
     document.querySelector("#upperpackagediv").style.display = "none";
     document.querySelector("#purpleblueplatessection").style.display = "none";
@@ -768,12 +768,12 @@ const StartConfiguration = () => {
     document.querySelector("#colortype").innerHTML = "Satin";
     document.querySelector("#colorname").innerHTML = "Q Satin Titanium Grey";
 
-    document.querySelector("#colorimage img").src = "q_satin_titanium_grey_plate_information.jpg";
+    document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720685805/q_satin_titanium_grey_plate_information_pwfalu.jpg";
     document.querySelector("#colorcardcolorname").innerHTML = "Q Satin Titanium Grey";
     document.querySelector("#colorcardcolorinformation").innerHTML = "Titanium Grey has a warm and green-ish hue that makes it both refined and distinctive. Working particularly well in a Satin finish, the coarse metallic effect shines across surfaces and works to flatters any Aston Martin’s sculpted forms.";
 
     document.querySelector("#colorplateinfobuttonsatintitaniumgrey").style.display = "block";
-    document.querySelector("#colorplateimage img").src = "q_satin_titanium_grey_plate.jpg";
+    document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677771/q_satin_titanium_grey_plate_qnfe9v.jpg";
 
     document.querySelector("#colorplateinfobutton").style.display = "block";
 
@@ -802,7 +802,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qsatintitaniumgrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_titanium_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677771/q_satin_titanium_grey_plate_qnfe9v.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
@@ -813,7 +813,7 @@ const StartConfiguration = () => {
 
     }
     if (prev === 'qsatinxenongrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_xenon_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677741/q_satin_xenon_grey_plate_zyiqk5.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
@@ -825,7 +825,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qcasinoroyale') {
-      document.querySelector("#colorplateimage img").src = "q_casino_royale_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677714/q_casino_royale_plate_la1z0t.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Casino Royale";
@@ -837,7 +837,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qquantumsilver') {
-      document.querySelector("#colorplateimage img").src = "q_quantum_silver_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677353/q_quantum_silver_plate_j5nl1q.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Quantum Silver";
@@ -921,10 +921,10 @@ const StartConfiguration = () => {
     document.querySelector("#colorname").innerHTML = "Q Satin Xenon Grey";
 
 
-    document.querySelector("#colorplateimage img").src = "q_satin_xenon_grey_plate.jpg";
+    document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677741/q_satin_xenon_grey_plate_zyiqk5.jpg";
     document.querySelector("#colorplateinfobutton").style.display = "block";
 
-    document.querySelector("#colorimage img").src = "q_satin_xenon_grey_plate_information.jpg";
+    document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720697719/q_satin_xenon_grey_plate_information_gi0sip.jpg";
     document.querySelector("#colorcardcolorname").innerHTML = "Q Satin Xenon Grey";
     document.querySelector("#colorcardcolorinformation").innerHTML = "Xenon Grey is a striking and visually arresting dark neutral. A statement colour, it has a unique and mineral-like quality that creates a sparkle seldom seen in any grey paint. It is particularly unique with a satin finish. Inspired by the element Xenon, the colour employs multiple semi-coarse and super-coarse coated aluminium's that appear to almost glow blue at certain angles of view. This technology emphasises the crafted contours of an Aston Martin's sculpted body sides while serving as a dramatic design showpiece in its own right.";
 
@@ -949,7 +949,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qsatintitaniumgrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_titanium_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677771/q_satin_titanium_grey_plate_qnfe9v.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
@@ -960,7 +960,7 @@ const StartConfiguration = () => {
 
     }
     if (prev === 'qsatinxenongrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_xenon_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677741/q_satin_xenon_grey_plate_zyiqk5.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
@@ -972,7 +972,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qcasinoroyale') {
-      document.querySelector("#colorplateimage img").src = "q_casino_royale_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677714/q_casino_royale_plate_la1z0t.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Casino Royale";
@@ -983,7 +983,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qquantumsilver') {
-      document.querySelector("#colorplateimage img").src = "q_quantum_silver_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677353/q_quantum_silver_plate_j5nl1q.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Quantum Silver";
@@ -1061,14 +1061,14 @@ const StartConfiguration = () => {
   }
 
   const HoverQuantumSilver = () => {
-    document.querySelector("#colorplateimage img").src = "q_quantum_silver_plate.jpg";
+    document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677353/q_quantum_silver_plate_j5nl1q.jpg";
     document.querySelector("#colortype").innerHTML = "Icon";
     document.querySelector("#colorname").innerHTML = "Q Quantum Silver";
 
     //remove the infoinformation button because we dont have information about the color 
     document.querySelector("#colorplateinfobutton").style.display = "none";
 
-    document.querySelector("#colorimage img").src = "q_seychelles_blue_plate_information.jpg";
+    document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720719460/q_seychelles_blue_plate_information_uobwvf.jpg";
     document.querySelector("#colorcardcolorname").innerHTML = "Q Seychelles Blue";
     document.querySelector("#colorcardcolorinformation").innerHTML = "A very rare Aston Martin colour-to-date, made most famous by a member of the British Royal family and a DB6 Volante.";
   }
@@ -1091,7 +1091,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qsatintitaniumgrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_titanium_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677771/q_satin_titanium_grey_plate_qnfe9v.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
@@ -1102,7 +1102,7 @@ const StartConfiguration = () => {
 
     }
     if (prev === 'qsatinxenongrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_xenon_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677741/q_satin_xenon_grey_plate_zyiqk5.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
@@ -1114,7 +1114,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qcasinoroyale') {
-      document.querySelector("#colorplateimage img").src = "q_casino_royale_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677714/q_casino_royale_plate_la1z0t.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Casino Royale";
@@ -1126,7 +1126,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qquantumsilver') {
-      document.querySelector("#colorplateimage img").src = "q_quantum_silver_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677353/q_quantum_silver_plate_j5nl1q.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Quantum Silver";
@@ -1205,7 +1205,7 @@ const StartConfiguration = () => {
 
   const HoverCasinoRoyale = () => {
 
-    document.querySelector("#colorplateimage img").src = "q_casino_royale_plate.jpg";
+    document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677714/q_casino_royale_plate_la1z0t.jpg";
     document.querySelector("#colortype").innerHTML = "Icon";
     document.querySelector("#colorname").innerHTML = "Q Casino Royale";
 
@@ -1213,7 +1213,7 @@ const StartConfiguration = () => {
     document.querySelector("#colorplateinfobutton").style.display = "block";
     document.querySelector("#colorplateinfobuttoncasinoroyale").style.display = "block";
 
-    document.querySelector("#colorimage img").src = "q_casino_royale_plate_information.jpg";
+    document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720681438/q_casino_royale_plate_information_gckq2r.jpg";
     document.querySelector("#colorcardcolorname").innerHTML = "Q Casino Royale";
     document.querySelector("#colorcardcolorinformation").innerHTML = "Named after the film it was first introduced in, Casino Royale is a colour exhibited on James Bonds DBS Coupe. This is a sophisticated, understated deep Silver.";
 
@@ -1240,7 +1240,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qsatintitaniumgrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_titanium_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677771/q_satin_titanium_grey_plate_qnfe9v.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
@@ -1251,7 +1251,7 @@ const StartConfiguration = () => {
 
     }
     if (prev === 'qsatinxenongrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_xenon_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677741/q_satin_xenon_grey_plate_zyiqk5.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
@@ -1263,7 +1263,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qcasinoroyale') {
-      document.querySelector("#colorplateimage img").src = "q_casino_royale_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677714/q_casino_royale_plate_la1z0t.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Casino Royale";
@@ -1275,7 +1275,7 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qquantumsilver') {
-      document.querySelector("#colorplateimage img").src = "q_quantum_silver_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677353/q_quantum_silver_plate_j5nl1q.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Quantum Silver";
@@ -1369,26 +1369,26 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qsatintitaniumgrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_titanium_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677771/q_satin_titanium_grey_plate_qnfe9v.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
       document.querySelector("#colorname").innerHTML = "Q Satin Titanium Grey";
 
-      document.querySelector("#colorimage img").src = "q_satin_titanium_grey_plate_information.jpg";
+      document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720685805/q_satin_titanium_grey_plate_information_pwfalu.jpg";
       document.querySelector("#colorcardcolorname").innerHTML = "Q Satin Titanium Grey";
       document.querySelector("#colorcardcolorinformation").innerHTML = "Titanium Grey has a warm and green-ish hue that makes it both refined and distinctive. Working particularly well in a Satin finish, the coarse metallic effect shines across surfaces and works to flatters any Aston Martin’s sculpted forms.";
 
 
     }
     if (prev === 'qsatinxenongrey') {
-      document.querySelector("#colorplateimage img").src = "q_satin_xenon_grey_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677741/q_satin_xenon_grey_plate_zyiqk5.jpg";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
       document.querySelector("#colortype").innerHTML = "Satin";
       document.querySelector("#colorname").innerHTML = "Q Satin Xenon Grey";
 
-      document.querySelector("#colorimage img").src = "q_satin_xenon_grey_plate_information.jpg";
+      document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720697719/q_satin_xenon_grey_plate_information_gi0sip.jpg";
       document.querySelector("#colorcardcolorname").innerHTML = "Q Satin Xenon Grey";
       document.querySelector("#colorcardcolorinformation").innerHTML = "Xenon Grey is a striking and visually arresting dark neutral. A statement colour, it has a unique and mineral-like quality that creates a sparkle seldom seen in any grey paint. It is particularly unique with a satin finish. Inspired by the element Xenon, the colour employs multiple semi-coarse and super-coarse coated aluminium's that appear to almost glow blue at certain angles of view. This technology emphasises the crafted contours of an Aston Martin's sculpted body sides while serving as a dramatic design showpiece in its own right.";
 
@@ -1396,14 +1396,14 @@ const StartConfiguration = () => {
     }
 
     if (prev === 'qcasinoroyale') {
-      document.querySelector("#colorplateimage img").src = "q_casino_royale_plate.jpg";
+      document.querySelector("#colorplateimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720677714/q_casino_royale_plate_la1z0t.jpg";
 
       document.querySelector("#colortype").innerHTML = "Icon";
       document.querySelector("#colorname").innerHTML = "Q Casino Royale";
       document.querySelector("#colorplateinfobutton").style.display = "block";
 
 
-      document.querySelector("#colorimage img").src = "q_casino_royale_plate_information.jpg";
+      document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720681438/q_casino_royale_plate_information_gckq2r.jpg";
       document.querySelector("#colorcardcolorname").innerHTML = "Q Casino Royale";
       document.querySelector("#colorcardcolorinformation").innerHTML = "Named after the film it was first introduced in, Casino Royale is a colour exhibited on James Bonds DBS Coupe. This is a sophisticated, understated deep Silver.";
 
@@ -1553,7 +1553,7 @@ const StartConfiguration = () => {
     document.querySelector("#colorinformation").style.top = "-33em";
     document.querySelector("#colorinformation").style.width = "29em";
 
-    // document.querySelector("#grillefinish").style.borderBottom="2px solid white";
+    document.querySelector("#grillefinish").style.borderBottom="2px solid white";
 
     document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/q_auto/v1720879503/q_buckinghamshire_green_bclbp_bcubp_bright_information_plate_aigbvy.jpg";
     document.querySelector("#purpleblueplatessection").style.display = "none";
@@ -1562,6 +1562,10 @@ const StartConfiguration = () => {
     document.querySelector("#wheelpackagediv").style.display = "none";
     document.querySelector("#taillights").style.borderBottom = "";
     document.querySelector("#glazing").style.borderBottom = "";
+    document.querySelector("#roof").style.borderBottom="";
+    document.querySelector("#brakes").style.borderBottom="";
+
+
 
 
 
@@ -1629,7 +1633,7 @@ const StartConfiguration = () => {
     document.querySelector("#wheels").style.borderBottom = "";
     document.querySelector("#taillights").style.borderBottom = "";
     document.querySelector("#grillefinish").style.borderBottom="";
-
+document.querySelector("#glazing").style.borderBottom="";
 
     document.querySelector("#wheelpackagediv").style.display = "none";
 
@@ -1737,6 +1741,7 @@ const StartConfiguration = () => {
     document.querySelector("#colorcard").style.width = "87vw";
     document.querySelector("#colorcard").style.height = "73vh";
     document.querySelector("#colorcard").style.transform = "translate(8%,-8%)";
+    document.querySelector("#grillefinish").style.borderBottom="";
 
 
     document.querySelector("#colorimage img").style.width = "49em";
@@ -1755,6 +1760,9 @@ const StartConfiguration = () => {
 
     document.querySelector("#roof").style.borderBottom = "";
     document.querySelector("#glazing").style.borderBottom = "";
+document.querySelector("#wheels").style.borderBottom="2px solid white";
+document.querySelector("#taillights").style.borderBottom="";
+document.querySelector("#brakes").style.borderBottom="";
 
     document.querySelector("#roofpackagediv").style.display = "none";
     document.querySelector("#brakepackagediv").style.display = "none";
@@ -1762,6 +1770,7 @@ const StartConfiguration = () => {
     document.querySelector("#lowerpackagediv").style.display = "none";
     document.querySelector("#purpleblueplatessection").style.display = "none";
     document.querySelector("#glazingpackagediv").style.display = "none";
+    document.querySelector("#taillightpackagediv").style.display="none";
 
 
     document.querySelector("#brakes").style.borderBottom = "";
@@ -1777,13 +1786,14 @@ const StartConfiguration = () => {
     document.querySelector("#wheels").style.borderBottom = "";
     document.querySelector("#taillights").style.borderBottom = "";
     document.querySelector("#glazing").style.borderBottom = "";
+    document.querySelector("#grillefinish").style.borderBottom="";
 
 
 
     document.querySelector("#roofpackagediv").style.display = "none";
     document.querySelector("#wheelpackagediv").style.display = "none";
     document.querySelector("#glazingpackagediv").style.display = "none";
-
+document.querySelector("#taillightpackagediv").style.display="none";
     document.querySelector("#brakepackagediv").style.display = "block";
 
     document.querySelector("#colorimage img").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720869362/carbon_ceramic_brakes_plate_information_orh6ab.png";
@@ -1798,6 +1808,7 @@ const StartConfiguration = () => {
     document.querySelector("#wheels").style.borderBottom = "";
     document.querySelector("#brakes").style.borderBottom = "";
     document.querySelector("#glazing").style.borderBottom = "";
+    document.querySelector("#grillefinish").style.borderBottom="";
 
 
     document.querySelector("#roofpackagediv").style.display = "none";
@@ -1935,7 +1946,8 @@ const StartConfiguration = () => {
     document.querySelector("#taillights").style.borderBottom = "";
     document.querySelector("#roof").style.borderBottom = "";
     document.querySelector("#wheels").style.borderBottom = "";
-    document.querySelector("#brake").style.borderBottom = "";
+    document.querySelector("#brakes").style.borderBottom = "";
+    document.querySelector("#grillefinish").style.borderBottom="";
 
   }
   

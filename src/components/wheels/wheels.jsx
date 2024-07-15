@@ -24,7 +24,7 @@ const Wheels=({showinfofunction})=>{
           <div id="wheelpackageimageinformationsection">
             <div id="wheelpackageimagewithinfo">
               <img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720865130/y_spoke_wheel_satin_bronze_evxbxg.png" alt="" id="currentwheelbodyinfoimage" />
-              <img src="infobutton.png" alt="" id="infobuttonforwheelbody"
+              <img src="https://res.cloudinary.com/dsctxyrvw/image/upload/v1720879541/infobutton_admoia.png" alt="" id="infobuttonforwheelbody"
                onClick={showinfofunction} 
                />
             </div>

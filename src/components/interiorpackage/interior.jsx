@@ -1936,17 +1936,17 @@ const Interior = ({ showinfofunction, selectedSeat, setSelectedSeat, selectedpri
   }
 
   const sportsplusseatimagesshow = () => {
-    document.querySelector("#img1").src = "sports_plus_seat_primary_color_onyx_black_secondary_color_oxford_tan_frontview.jpg";
-    document.querySelector("#img2").src = "sports_plus_seat_primary_color_onyx_black_secondary_color_oxford_tan_steeringview.jpg";
-    document.querySelector("#img3").src = "sports_plus_seat_primary_color_onyx_black_secondary_color_oxford_tan_steeringleftbackview.jpg";
-    document.querySelector("#img4").src = "sports_plus_seat_primary_color_onyx_black_secondary_color_oxford_tan_sideview.jpg";
+    document.querySelector("#img1").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720776654/sports_plus_seat_primary_color_onyx_black_secondary_color_oxford_tan_frontview_vfzqdj.jpg";
+    document.querySelector("#img2").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720776650/sports_plus_seat_primary_color_onyx_black_secondary_color_oxford_tan_steeringview_lgikhk.jpg";
+    document.querySelector("#img3").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720776651/sports_plus_seat_primary_color_onyx_black_secondary_color_oxford_tan_steeringleftbackview_jfvzko.jpg";
+    document.querySelector("#img4").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720776653/sports_plus_seat_primary_color_onyx_black_secondary_color_oxford_tan_sideview_zunzdg.jpg";
   }
 
   const performanceseatimagesshow = () => {
-    document.querySelector("#img1").src = "performance_seat_frontview.jpg";
-    document.querySelector("#img2").src = "performance_seat_steeringview.jpg";
-    document.querySelector("#img3").src = "performance_seat_steeringleftbackview.jpg";
-    document.querySelector("#img4").src = "performance_seat_sideview.jpg";
+    document.querySelector("#img1").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720796904/performance_seat_frontview_vlhh7t.jpg";
+    document.querySelector("#img2").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720796779/performance_seat_steeringview_fece4h.jpg";
+    document.querySelector("#img3").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720797471/performance_seat_steeringleftbackview_da7qw0.jpg";
+    document.querySelector("#img4").src = "https://res.cloudinary.com/dsctxyrvw/image/upload/v1720797471/performance_seat_sideview_d9794y.jpg";
   }
 
   const Showseats = () => {
