@@ -12,10 +12,10 @@ export const Preloader = () => {
     loaderTL.current.fromTo(".prealoader p", { opacity: 0, letterSpacing: "50px" }, { opacity: 1, letterSpacing: "1px", duration: 3, ease: "power2.in" });
 
     // Animation for the logo (increase opacity)
-    loaderTL.current.fromTo(".preload-logo-svg", { opacity: 0 }, { opacity: 1, duration: 2, ease: "power2.in" });
+    loaderTL.current.fromTo(".preload-logo-svg", { opacity: 0 }, { opacity: 1, duration: 1.6, ease: "power2.in" });
 
     // Animation for moving the image up with decreasing scale
-    loaderTL.current.fromTo(".pre-both", { y: 0, scale: 1 }, { delay: 1, y: -340, scale: 0.69, ease: "power2.in", duration: 2 });
+    loaderTL.current.fromTo(".pre-both", { y: 0, scale: 1 }, { delay: 0.3, y: -340, scale: 0.69, ease: "power2.in", duration: 1.8 });
 
     // Fade out animation for .prealoader
     loaderTL.current.to(".prealoader", { duration: 0.8, opacity: 0, onComplete: () => document.querySelector(".prealoader").style.opacity = 0 });

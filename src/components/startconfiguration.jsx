@@ -1,12 +1,8 @@
-
-
-
 import { useState, useEffect } from 'react';
-
 import './startconfiguration.css';
 import Paint from './paint';
 import './paint.css';
-// import Purpleblue from './purpleandbluesection';
+
 import Purpleblue from './purpleandblue';
 
 import Interior from './interiorpackage/interior';
@@ -21,8 +17,6 @@ import UpperBodyPackage from './exteriorpackages/upperbodypackages';
 import GrilleFinish from './grillefinish/grillefinish';
 
 import Roof from './roof/roof';
-
-
 
 const StartConfiguration = () => {
 

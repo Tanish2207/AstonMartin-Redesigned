@@ -8,36 +8,41 @@ import { Navbar } from './components/navigation/navbar.jsx';
 import { SelectDealer } from './components/01_selectDealer/selectDealer.jsx';
 import { UserDetails } from './components/03_userDetails.jsx/userDetails.jsx';
 import { Configure } from './components/configure/configure.jsx';
-import { Menu } from './components/navigation/menu.jsx';
 import Customize from './components/customize/customize.jsx';
 import { SelectModel } from './components/02_selectModel/selectModel.jsx';
 import { DealerSelection } from './contexts/dealerSelection.js';
 import { Preloader } from './components/preloader/preloader.jsx';
 import { Explore3D } from './components/explore3D/explore3D.jsx';
 import StartConfiguration from './components/startconfiguration.jsx';
+import SelectDealer_Loader from './components/01_selectDealer/selectDealer_loader.jsx';
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-    <DealerSelection.Provider value={[0, 0, 0]}>
-      {console.log("hello")}
-      <BrowserRouter>
+    <BrowserRouter>
+      <DealerSelection.Provider value={[0, 0, 0]}>
         <Routes>
           <Route exact path="/"
             element={<><Preloader /><App /></>} />
           <Route exact path="/home"
             element={<App />} />
           <Route exact path="/tdsteps"
-            element={<><Navbar /><TestDriveSteps /></>} />
+            element={<><Navbar /><TestDriveSteps /></>} />         
+          <Route exact path="/select-dealer"
+            element={<><Navbar /><SelectDealer /></>} />
+          <Route exact path="/user-details"
+            element={<><Navbar /><UserDetails /></>} />
           <Route exact path="/config"
-            element={<><Navbar /><Configure /></>} />          
+            element={<><Navbar /><Configure /></>} />
+          <Route exact path="/select-model"
+            element={<><Navbar /><SelectModel /></>} />
           <Route exact path="/explore"
             element={<><Navbar /><Explore3D /></>} />
-            <Route exact path="/startconfig"
-            element={<><StartConfiguration/></>} />
+          <Route exact path="/startconfig"
+            element={<StartConfiguration />} />
         </Routes>
-      </BrowserRouter>
-    </DealerSelection.Provider >
+      </DealerSelection.Provider >
+    </BrowserRouter>
   </>
 )

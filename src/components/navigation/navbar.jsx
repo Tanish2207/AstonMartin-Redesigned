@@ -8,11 +8,12 @@ export const Navbar = () => {
     const openMenu = () => {
         setSideBar(!sidebar)
     };
+    
 
     return (
         <>
             <Menu sidebar={sidebar} />
-            <nav id="nav" className="fixed top-0 w-full flex text-white justify-between items-center px-40 py-4 h-20" style={{ backgroundColor: "#021926" }}>
+            <nav id="nav" className="fixed top-0 w-full flex text-white justify-between items-center px-40 py-4 h-20" style={{ backgroundColor: "#232425" }}>
 
                 {sidebar ? <RiCloseLine onClick={openMenu} /> : <RiMenuLine onClick={openMenu} />
                 }

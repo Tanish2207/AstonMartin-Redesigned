@@ -3,7 +3,7 @@
   margin-top: 5rem;
   display: block;
   width: 20rem;
-  height: 80vh;
+  height: 75vh;
   background-color: #161A11;
   position: absolute;
   /* left:0; */
@@ -14,7 +14,7 @@
 .links li {
   color: grey;
   list-style-type: none;
-  font-size: 24px;
+  font-size: 20px;
   padding: 0.8rem 1.50rem;
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@ li.active {
   /* margin-top: 5rem; */
   display: none;
   width: 20rem;
-  height: 80vh;
+  height: 75vh;
   background-color: #161A11;
   position: absolute;
   left: 20rem;

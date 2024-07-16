@@ -1,6 +1,6 @@
 import { RiArrowRightLine, RiMapPin2Line, RiPhoneLine } from '@remixicon/react'
 import { useContext } from 'react';
-import { Link, Navigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { DealerSelection } from '../../contexts/dealerSelection';
 export const DealerComp = (props) => {
     const val = useContext(DealerSelection)

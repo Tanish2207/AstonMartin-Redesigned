@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './menu.css';
 import { RiArrowRightSLine } from "@remixicon/react";
+import { useEffect } from 'react';
 export const Menu = ({ sidebar }) => {
 
   const handle = () => {
