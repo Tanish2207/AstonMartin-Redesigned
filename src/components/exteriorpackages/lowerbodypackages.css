@@ -1,0 +1,120 @@
+#lowerpackage {
+  height: 18vh;
+  width: 100vw;
+  background: #3e4140;
+  position: absolute;
+  top: 79vh;
+  display: flex;
+  align-items: center;
+}
+
+/* #lowerpackageimagesplate img{
+  /* width:10em; */
+  /* height:1em; /
+} */
+
+#lowerbodycolorone,#lowerbodycolortwo,#lowerbodycolorthree{
+  width:10em;
+  position:relative;
+  /* top:1em; */
+}
+
+#lowerpackageimagesplate{
+  display:flex;
+  align-items:center;
+}
+
+.lowerpackagehoverhider{
+  overflow:hidden;
+  margin-left:1em;
+}
+
+#lowerpackageimagewithinfo {
+  display: flex;
+  flex-direction: column;
+  width: 14em;
+  height: 96%;
+}
+#lowerpackageplatesdiv{
+  /* background: yellow; */
+  width: 66em;
+}
+#lowerpackageimageinformationsection {
+  position: relative;
+  right: -8vh;
+  /* background: aqua; */
+  border-left: 1px solid grey;
+  width: 25vw;
+  height: 8em;
+  align-items: center;
+  display: flex;
+  padding: 0% 1% /* position: relative; right: -102vh; background: aqua; width: 24em; display: flex; */;
+}
+
+#infobuttonforlowerbody {
+  width: 2em;
+    height: 2em;
+    position: relative;
+    /* top: 70%; */
+    right: -80%;
+    top: -20%;
+}
+
+#infobuttonforbodycolor,#infobuttonforglossblack,#infobuttonforcarbonfibre{
+ 
+  position: relative;
+  /* top: 70%; */
+  right: -80%;
+  top: -25%;
+  width:28px;
+  height:28px;
+  /* display:none; */
+}
+
+#infobuttonforbodycolor,#infobuttonforglossblack,#infobuttonforcarbonfibre:hover{
+  top:1em;
+}
+
+#infobuttonforbodycolor{
+  width:28px;
+  height:28px;
+  top:-1em;
+  display:block;
+
+}
+#infobuttonforglossblack{
+  top:-1em;
+  display:block;
+
+}
+#infobuttonforcarbonfibre{
+  top:-1em;
+  display:block;
+
+}
+
+
+.lowerbodyscaling:hover{
+  transform: scale(1.1);
+transition: transform 1.5s ease;
+}
+
+.lowerbodyscaling:hover  img{
+}
+
+.lowerpackageimagesplate img{
+  
+}
+#lowerpackagename{
+  font-weight: 600;
+  color:white;
+}
+
+#lowerpackageinformationcontent{
+  margin: 1em;
+    width: 12em;
+}
+#currentlowerbodyinfoimage{
+  position: relative;
+  top: 7%;
+}

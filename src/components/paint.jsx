@@ -3,7 +3,7 @@ import StartConfiguration from './startconfiguration';
 import Purpleblue from './purpleandblue';
 
 
-const Paint=(props)=>{
+const Paint=({blackgrey,selectedpaint,setselectedpaint})=>{
 
   const paint=({props})=>
   {
@@ -12,7 +12,8 @@ const Paint=(props)=>{
     handleshowPaintSection();
   }
   
-  const blackandgreys=(props)=>{
+  const blackandgreys=()=>{
+    setselectedpaint("black");
     document.querySelector("#blackandgreys").style.borderBottom="white 1px solid";
 document.querySelector("#blackandgreys").style.color="white";
 document.querySelector("#purplesandblues").style.color="#acaead";
@@ -38,6 +39,7 @@ document.querySelector("#purplesandblues").style.color="#acaead";
   // }
 
   const purpleblues=()=>{
+    setselectedpaint("blue")
     document.querySelector("#purpleblueplatessection").style.display="block";
     document.querySelector(".colorplatediv").style.display="none";
   
@@ -62,10 +64,10 @@ document.querySelector("#blackandgreys").style.color="#acaead";
   <div id="paintsection">
    <p id="blackandgreys" onClick={()=>{props.blackgrey();blackandgreys();}}>Black & Greys</p>
    <p id="purplesandblues" onClick={()=>{purpleblues();}}>Purples & Blues</p>
-   <p id="greens" >Greens</p>
-   <p id="reds">Reds</p>
-   <p id="bronzesandoranges">Bronzes & Oranges</p>
-   <p id="silversandwhites"> Silvers & Whites</p>
+   {/* <p id="greens" >Greens</p> */}
+   {/* <p id="reds">Reds</p> */}
+   {/* <p id="bronzesandoranges">Bronzes & Oranges</p> */}
+   {/* <p id="silversandwhites"> Silvers & Whites</p> */}
   </div>
   </div>
   </>)

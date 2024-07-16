@@ -1,5 +1,5 @@
 #paintbar{
-  width: 100vw;
+  width: 87vw;
   height: 0vh;
   background-color: #414446;
   display:none;
@@ -18,14 +18,14 @@
   display:flex;
 } */
 #paintsection {
-  width: 100vw;
+  width: 87vw;
   height: 8vh;
   background-color: #414446;
   /* background-color: #98a6b0; */
   flex-direction: row;
   position: relative;
   top: -8vh;
-  left: 12vw;
+  left: 13vw;
   display: flex;
   background: #383a3b;
 }
@@ -34,7 +34,7 @@
 #paintsection p{
   width: 12vw;
   height: 100%;
-  font-size: 16px;
+  font-size: 1vw;
   font-weight: 700;
   /* background-color: #414446; */
   background-color:#292b2d;

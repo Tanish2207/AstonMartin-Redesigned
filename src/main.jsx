@@ -28,15 +28,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route exact path="/home"
             element={<App />} />
           <Route exact path="/tdsteps"
-            element={<><Navbar /><TestDriveSteps /></>} />
+            element={<><Navbar /><TestDriveSteps /></>} />         
           <Route exact path="/select-dealer"
             element={<><Navbar /><SelectDealer /></>} />
           <Route exact path="/user-details"
             element={<><Navbar /><UserDetails /></>} />
           <Route exact path="/config"
             element={<><Navbar /><Configure /></>} />
-          <Route exact path="/customize"
-            element={<><Navbar /><Customize /></>} />
           <Route exact path="/select-model"
             element={<><Navbar /><SelectModel /></>} />
           <Route exact path="/explore"

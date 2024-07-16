@@ -1,0 +1,48 @@
+#exteriorpackagewindow{
+  display:none;
+}
+
+/* #exteriorpackagesection {
+  width: 80vw;
+  height: 8%;
+  background-color: #414446;
+  /* background-color: #98a6b0; //
+  flex-direction: row;
+  position: absolute;
+  top: 73%;
+  left: 20vw;
+  display: flex;
+  background: #292b2d;
+  z-index: 2020;
+} */
+#exteriorpackagesection {
+  width: 80vw;
+  height: 8%;
+  background-color: #414446;
+  /* background-color: #98a6b0; */
+  flex-direction: row;
+  position: absolute;
+  left: 45vh;
+  top: 72vh;
+  display: flex;
+  background: #292b2d;
+  z-index: 2020;
+}
+
+.exteriorpackagep{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 2%;
+    border-right: 1px solid #383a3b;
+    color: white;
+    font-weight: 700;
+    font-size:1vw;
+}
+
+#lowerbodypackage{
+  color:#acaead;
+}
+#upperbodypackage{
+  color:#acaead;
+}
