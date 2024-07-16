@@ -30,12 +30,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             element={<App />} />
           <Route exact path="/tdsteps"
             element={<><Navbar /><TestDriveSteps /></>} />
-         
           <Route exact path="/config"
-            element={<><Navbar /><Configure /></>} />
-          <Route exact path="/customize"
-            element={<><Navbar /><Customize /></>} />
-          
+            element={<><Navbar /><Configure /></>} />          
           <Route exact path="/explore"
             element={<><Navbar /><Explore3D /></>} />
             <Route exact path="/startconfig"
